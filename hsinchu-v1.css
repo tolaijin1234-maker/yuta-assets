@@ -1,0 +1,1263 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=IBM+Plex+Mono:wght@500;600&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&display=swap");
+:is(#urology-hsinchu-cms,#yh) *{font-family:inherit!important}
+:is(#urology-hsinchu-cms,#yh) p,:is(#urology-hsinchu-cms,#yh) span{font-family:inherit!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;color:inherit!important;letter-spacing:inherit!important}
+:is(#urology-hsinchu-cms,#yh){
+  --ink-900:#1C1712!important;--ink-700:#3A3028!important;--ink-500:#6B5F53!important;--ink-300:#9A8E80!important;
+  --page:#F5F5F4!important;--card:#FFFFFF!important;--sunken:#ECEBE8!important;--alt:#F9F9F8!important;--hairline:rgba(28,23,18,.10)!important;
+  --espresso-900:#1C1712!important;--espresso-800:#2C2016!important;--espresso-700:#3B2B1D!important;--espresso-gradient:linear-gradient(135deg,#1C1712,#2C2016 55%,#3B2B1D)!important;
+  --brass-500:#B3873E!important;--brass-700:#8C6A2C!important;--brass-600:#A57A35!important;--brass-400:#C99B4E!important;--brass-300:#D9BC86!important;--brass-100:#F3EAD8!important;--brass-50:#F6F0E4!important;--brass-button:linear-gradient(135deg,#C99B4E,#A57A35)!important;
+  --brown-700:#5A4634!important;--brown-800:#4A3729!important;--brown-500:#8A7360!important;--brown-300:#C9BBAA!important;--brown-100:#F1EFEC!important;
+  --midnight:#223A6B!important;--midnight-on-dark:#5C79B0!important;--midnight-tint:#E4E9F3!important;
+  --danger:#A8412F!important;--danger-bg:#F5E1DB!important;--danger-ink:#A8412F!important;--success:#4E7A5A!important;--success-bg:#E6EFE8!important;--success-ink:#4E7A5A!important;--line:#06C755!important;
+  --font-serif:'Noto Serif TC',serif!important;--font-sans:'Noto Sans TC',sans-serif!important;--font-mono:'IBM Plex Mono',monospace!important;--font-latin:'Cormorant Garamond',serif!important;
+  --shadow-card:0 12px 30px -24px rgba(28,23,18,.35)!important;
+  --gray:#EEEEEB!important;                 
+  --dark-card-border:rgba(217,188,134,.6)!important;
+  --wrap:1048px!important;--read:1000px!important;
+}
+:is(#urology-hsinchu-cms,#yh), :is(#urology-hsinchu-cms,#yh) *{box-sizing:border-box!important;margin:0!important;padding:0!important}
+:is(#urology-hsinchu-cms,#yh){scroll-behavior:smooth!important}
+:is(#urology-hsinchu-cms,#yh){overflow-x:clip!important}
+:is(#urology-hsinchu-cms,#yh){font-family:var(--font-sans)!important;font-weight:500!important;font-size:17px!important;line-height:1.95!important;
+  background:var(--page)!important;color:var(--ink-700)!important;-webkit-font-smoothing:antialiased!important}
+:is(#urology-hsinchu-cms,#yh) img{max-width:100%!important;height:auto!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) a{color:inherit!important}
+:is(#urology-hsinchu-cms,#yh) .wrap{max-width:var(--wrap)!important;margin:0 auto!important;padding:0 24px!important}
+:is(#urology-hsinchu-cms,#yh) .read{max-width:var(--read)!important;margin-inline:auto!important}
+:is(#urology-hsinchu-cms,#yh) strong,:is(#urology-hsinchu-cms,#yh) b{color:var(--ink-900)!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) em{font-style:normal!important;color:var(--brass-700)!important;font-weight:600!important}
+:is(#urology-hsinchu-cms,#yh) .tK{color:var(--brass-700)!important;font-weight:600!important}
+:is(#urology-hsinchu-cms,#yh) .tB{color:var(--brown-700)!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .num{font-family:var(--font-latin)!important;font-weight:700!important;color:var(--brown-700)!important;font-size:1.1em!important}
+:is(#urology-hsinchu-cms,#yh) sup.r{font-family:var(--font-mono)!important;font-size:11px!important;font-weight:600!important;color:var(--brass-700)!important;vertical-align:super!important;line-height:0!important;margin-left:2px!important}
+:is(#urology-hsinchu-cms,#yh) sup.r a{text-decoration:none!important}
+:is(#urology-hsinchu-cms,#yh) .note{font-size:12.5px!important;line-height:1.75!important;color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) p{margin:14px 0!important}
+:is(#urology-hsinchu-cms,#yh) section.ch{padding:56px 0!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch + section.ch{border-top:1px solid rgba(28,23,18,.06)!important}
+:is(#urology-hsinchu-cms,#yh){--pair:17px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vr .k,:is(#urology-hsinchu-cms,#yh) .vs .vr .v,:is(#urology-hsinchu-cms,#yh) .er .k,:is(#urology-hsinchu-cms,#yh) .er .v,:is(#urology-hsinchu-cms,#yh) .cmp-m .l span,:is(#urology-hsinchu-cms,#yh) .trust .facts .f b,:is(#urology-hsinchu-cms,#yh) .trust .facts .f .vv,:is(#urology-hsinchu-cms,#yh) .ltree .lbr b,:is(#urology-hsinchu-cms,#yh) .ltree .lbr span{font-size:var(--pair)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vr .k,:is(#urology-hsinchu-cms,#yh) .er .k,:is(#urology-hsinchu-cms,#yh) .cmp-m .l span:first-child{
+  font-family:var(--font-sans)!important;font-weight:500!important;letter-spacing:0!important;color:var(--ink-500)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh){--pair:15.5px!important}
+}
+:is(#urology-hsinchu-cms,#yh) .opener{text-align:center!important;margin:0 0 22px!important}
+:is(#urology-hsinchu-cms,#yh) .opener .ob{display:inline-block!important;max-width:100%!important;min-width:min(560px,100%)!important;
+  border-top:1px solid var(--brass-500)!important;border-bottom:1px solid var(--brass-500)!important;padding:20px 34px!important}
+:is(#urology-hsinchu-cms,#yh) .opener .eb{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.18em!important;
+  text-transform:uppercase!important;color:var(--brass-700)!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .opener h2{font-family:var(--font-serif)!important;font-size:38px!important;font-weight:700!important;color:var(--ink-900)!important;
+  line-height:1.4!important;margin:0!important;scroll-margin-top:20px!important}
+:is(#urology-hsinchu-cms,#yh) .opener h2 .k{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .lede{font-size:17px!important;line-height:1.95!important;font-weight:500!important;color:var(--ink-700)!important;margin:0 0 18px!important}
+:is(#urology-hsinchu-cms,#yh) .lede b,:is(#urology-hsinchu-cms,#yh) .lede strong{color:var(--brass-700)!important;font-weight:600!important}
+:is(#urology-hsinchu-cms,#yh) .lede .tB{color:var(--brown-700)!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) h3.q{display:inline-flex!important;align-items:center!important;gap:10px!important;font-family:var(--font-serif)!important;font-size:22px!important;
+  font-weight:700!important;color:var(--ink-900)!important;margin:34px 0 12px!important;padding:0 24px 8px 0!important;
+  border-bottom:2px solid var(--brass-500)!important;line-height:1.4!important}
+:is(#urology-hsinchu-cms,#yh) h3.q::before{content:""!important;width:10px!important;height:10px!important;background:var(--brass-500)!important;transform:rotate(45deg)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) h3.q + *{margin-top:0!important}
+:is(#urology-hsinchu-cms,#yh) .answer{background:var(--brass-50)!important;border-left:3px solid var(--brass-500)!important;border-radius:0 10px 10px 0!important;
+  padding:12px 16px!important;margin:0 0 14px!important;font-size:17px!important;line-height:1.85!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .answer b{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .bl{display:grid!important;gap:10px!important;margin:12px 0 22px!important}
+:is(#urology-hsinchu-cms,#yh) .bl>div{display:flex!important;gap:12px!important;align-items:baseline!important;font-size:17px!important;line-height:1.75!important}
+:is(#urology-hsinchu-cms,#yh) .bl>div::before{content:""!important;width:8px!important;height:8px!important;border-radius:50%!important;background:var(--brass-500)!important;flex:none!important;transform:translateY(1px)!important}
+:is(#urology-hsinchu-cms,#yh) .bl b{color:var(--brass-700)!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .ol{display:grid!important;gap:12px!important;margin:12px 0 22px!important;counter-reset:s!important}
+:is(#urology-hsinchu-cms,#yh) .ol>div{display:flex!important;gap:13px!important;align-items:baseline!important;font-size:17px!important;line-height:1.7!important}
+:is(#urology-hsinchu-cms,#yh) .ol>div::before{counter-increment:s!important;content:counter(s)!important;width:26px!important;height:26px!important;border-radius:50%!important;background:var(--brass-100)!important;
+  color:var(--brass-700)!important;font-family:var(--font-latin)!important;font-size:16px!important;font-weight:600!important;display:flex!important;align-items:center!important;justify-content:center!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .card{background:var(--card)!important;border:1px solid var(--hairline)!important;border-radius:18px!important;padding:26px 30px!important;box-shadow:var(--shadow-card)!important}
+:is(#urology-hsinchu-cms,#yh) .hero{position:relative!important;background:var(--page)!important;overflow:hidden!important}
+:is(#urology-hsinchu-cms,#yh) .hero .bg img{width:100%!important;height:auto!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{position:absolute!important;left:80px!important;bottom:50px!important;width:480px!important;z-index:2!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb{display:flex!important;align-items:center!important;gap:12px!important;font:600 13px/1 var(--font-mono)!important;letter-spacing:.18em!important;
+  text-transform:uppercase!important;color:var(--brass-700)!important;margin-bottom:18px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb::before{content:""!important;width:32px!important;height:2px!important;background:var(--brass-500)!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1{margin:0 0 14px!important;font:600 56px/1.22 var(--font-serif)!important;color:var(--brown-700)!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1 .k{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font:700 28px/1.4 var(--font-serif)!important;color:var(--ink-900)!important;margin:0 0 18px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font:500 22px/1.7 var(--font-sans)!important;color:var(--ink-700)!important;margin:0 0 26px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btns{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;height:66px!important;border-radius:10px!important;
+  font-size:20px!important;text-decoration:none!important;white-space:nowrap!important;transition:transform .25s ease,box-shadow .25s ease!important}
+:is(#urology-hsinchu-cms,#yh) .hero .b1{background:var(--brass-button)!important;color:var(--ink-900)!important;font-weight:700!important;box-shadow:0 12px 26px -14px rgba(165,122,53,.7)!important}
+:is(#urology-hsinchu-cms,#yh) .hero .b2{background:rgba(255,255,255,.7)!important;border:1px solid rgba(28,23,18,.35)!important;color:var(--ink-900)!important;font-weight:600!important;
+  -webkit-backdrop-filter:blur(4px)!important;backdrop-filter:blur(4px)!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn:hover{transform:translateY(-2px)!important}
+:is(#urology-hsinchu-cms,#yh) .hero .mtop{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .rev{background:#fff!important;border-top:1px solid var(--hairline)!important;border-bottom:1px solid var(--hairline)!important}
+:is(#urology-hsinchu-cms,#yh) .rev .wrap{min-height:64px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:16px!important;flex-wrap:wrap!important;padding-block:12px!important}
+:is(#urology-hsinchu-cms,#yh) .rev .l{display:flex!important;align-items:center!important;gap:12px!important}
+:is(#urology-hsinchu-cms,#yh) .rev .logo{width:22px!important;height:22px!important;border-radius:50%!important;background:var(--brass-button)!important;color:var(--ink-900)!important;
+  font:700 12px/22px var(--font-serif)!important;text-align:center!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .rev .nm{font:600 15px/1 var(--font-sans)!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .rev .role{font:500 14px/1 var(--font-sans)!important;color:var(--ink-500)!important;margin-left:10px!important}
+:is(#urology-hsinchu-cms,#yh) .rev .r{display:flex!important;align-items:center!important;gap:14px!important}
+:is(#urology-hsinchu-cms,#yh) .rev .r i{width:1px!important;height:14px!important;background:rgba(28,23,18,.15)!important}
+:is(#urology-hsinchu-cms,#yh) .rev .r .n{font:600 17px/1 var(--font-latin)!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .rev .r .c{font:600 14px/1 var(--font-sans)!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .trust .top{display:grid!important;grid-template-columns:1fr!important;gap:24px!important}
+:is(#urology-hsinchu-cms,#yh) .trust .photo{border-radius:14px!important;overflow:hidden!important;background:var(--brown-100)!important;box-shadow:0 16px 36px -28px rgba(28,23,18,.45)!important}
+:is(#urology-hsinchu-cms,#yh) .trust .photo img{width:100%!important;height:auto!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .trust .intro p{margin:0!important;font-size:17px!important;line-height:1.9!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts{margin-top:18px!important;padding-top:16px!important;border-top:1px solid var(--hairline)!important;display:grid!important;grid-template-columns:1fr!important;gap:0!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f{display:flex!important;align-items:center!important;gap:12px!important;min-width:0!important;font-size:16px!important;line-height:1.5!important;
+  padding:9px 0!important;border-top:1px dashed rgba(28,23,18,.12)!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f:first-child{border-top:none!important;padding-top:2px!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f b{flex:none!important;font:600 12px/1 var(--font-mono)!important;letter-spacing:.1em!important;color:var(--brass-700)!important;background:var(--brass-50)!important;border-radius:999px!important;padding:6px 9px!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f .vv{flex:1!important;min-width:0!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f em{color:var(--brown-700)!important;font-weight:700!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .trust .intro .note{margin:12px 0 0!important;font-size:13px!important;line-height:1.6!important;color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) .toc{display:grid!important;grid-template-columns:1fr!important;gap:18px!important;align-items:start!important}
+:is(#urology-hsinchu-cms,#yh) .toc .hd b{display:block!important;font-family:var(--font-serif)!important;font-size:20px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .toc .hd span{display:block!important;font:600 13px/1 var(--font-mono)!important;letter-spacing:.2em!important;color:var(--brass-700)!important;margin-top:8px!important}
+:is(#urology-hsinchu-cms,#yh) .toc ol{list-style:none!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:0 28px!important;margin:0!important;padding:0!important}
+:is(#urology-hsinchu-cms,#yh) .toc li{display:flex!important;align-items:center!important;gap:12px!important;padding:10px 0!important;border-bottom:1px solid rgba(28,23,18,.08)!important;min-width:0!important}
+:is(#urology-hsinchu-cms,#yh) .toc li .n{font-family:var(--font-latin)!important;font-size:19px!important;font-weight:600!important;color:var(--brass-500)!important;width:26px!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .toc li:nth-child(even) .n{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .toc a{font-size:17px!important;text-decoration:none!important;color:var(--ink-900)!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;min-width:0!important}
+:is(#urology-hsinchu-cms,#yh) .toc a:hover{color:var(--brass-700)!important;text-decoration:underline!important;text-underline-offset:3px!important}
+:is(#urology-hsinchu-cms,#yh) .toc .more-t,:is(#urology-hsinchu-cms,#yh) .toc input{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .gcards{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:14px!important;margin-top:26px!important}
+:is(#urology-hsinchu-cms,#yh) .gc{background:#fff!important;border:1px solid var(--dark-card-border)!important;border-radius:12px!important;padding:22px 18px!important;color:var(--ink-900)!important;
+  box-shadow:0 12px 28px -18px rgba(0,0,0,.6)!important}
+:is(#urology-hsinchu-cms,#yh) .gc svg{display:block!important}
+:is(#urology-hsinchu-cms,#yh) .gc .t{font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;margin-top:12px!important;line-height:1.35!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .gc .d{font-size:15px!important;line-height:1.65!important;color:var(--ink-700)!important;margin-top:6px!important;font-weight:500!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.five{grid-template-columns:repeat(6,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.five .gc{grid-column:span 2!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.five .gc:nth-child(4),:is(#urology-hsinchu-cms,#yh) .gcards.five .gc:nth-child(5){grid-column:span 3!important}
+:is(#urology-hsinchu-cms,#yh) .gc.key{border:1.5px solid var(--midnight)!important}
+:is(#urology-hsinchu-cms,#yh) .gc.key .big{font:700 32px/1 var(--font-latin)!important;color:var(--midnight)!important}
+:is(#urology-hsinchu-cms,#yh) .gc.key .big small{font-size:15px!important;margin-left:3px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp{border:1px solid var(--hairline)!important;border-radius:16px!important;overflow:hidden!important;background:var(--card)!important;box-shadow:var(--shadow-card)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r{display:grid!important;grid-template-columns:112px 1fr 1fr!important;border-top:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r:first-child{border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r>div{padding:13px 16px!important;font-size:17px!important;text-align:center!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r>div:first-child{text-align:left!important;font-weight:700!important;color:var(--ink-500)!important;background:var(--alt)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r>div+div+div{border-left:1px solid rgba(28,23,18,.06)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd>div{padding:14px 16px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd>div:first-child{background:var(--sunken)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .a{background:var(--brass-50)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .b{background:var(--brown-100)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .t{font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .a .t{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .b .t{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .s{font:600 13px/1 var(--font-mono)!important;letter-spacing:.12em!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .a .s{color:var(--brass-600)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .b .s{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .tK,:is(#urology-hsinchu-cms,#yh) .cmp .tB{font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2{border:1px solid var(--hairline)!important;border-radius:16px!important;overflow:hidden!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r{display:grid!important;grid-template-columns:320px 1fr!important;border-top:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r:first-child{border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div{padding:14px 18px!important;font-size:17px!important;line-height:1.7!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div:first-child{background:var(--alt)!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div+div{border-left:1px solid rgba(28,23,18,.06)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd>div:first-child{background:var(--sunken)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd .a{background:var(--brass-50)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd .t{font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd .s{font:600 13px/1 var(--font-mono)!important;letter-spacing:.12em!important;color:var(--brass-600)!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .price{display:grid!important;grid-template-columns:1fr 1fr!important;gap:16px!important;align-items:stretch!important;margin-top:26px!important;max-width:820px!important;margin-left:auto!important;margin-right:auto!important}
+:is(#urology-hsinchu-cms,#yh) .price .p{border:1px solid var(--dark-card-border)!important;border-radius:16px!important;background:var(--card)!important;padding:24px 20px!important;
+  box-shadow:0 12px 28px -18px rgba(0,0,0,.6)!important;display:flex!important;flex-direction:column!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .price .p.mark{border:1.5px solid var(--brass-500)!important;position:relative!important}
+:is(#urology-hsinchu-cms,#yh) .price .p.mark .tag{position:absolute!important;top:-12px!important;left:50%!important;transform:translateX(-50%)!important;background:var(--midnight)!important;color:#fff!important;
+  font:600 13px/1 var(--font-mono)!important;letter-spacing:.14em!important;padding:6px 13px!important;border-radius:999px!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .t{font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .d{font-size:12.5px!important;color:var(--ink-300)!important;margin:2px 0 14px!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .k{font-family:var(--font-latin)!important;font-size:17px!important;color:var(--ink-500)!important;margin-bottom:2px!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .v{font-family:var(--font-latin)!important;font-size:27px!important;font-weight:600!important;color:var(--brass-700)!important;line-height:1.15!important}
+:is(#urology-hsinchu-cms,#yh) .price .p hr{border:none!important;height:1px!important;background:rgba(28,23,18,.08)!important;margin:16px 0!important}
+:is(#urology-hsinchu-cms,#yh) .price .p ul{list-style:none!important;display:grid!important;gap:9px!important;font-size:15px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) .price .p li{display:flex!important;gap:8px!important}
+:is(#urology-hsinchu-cms,#yh) .price .p li svg{flex:none!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .incl{background:#fff!important;border:1px solid var(--dark-card-border)!important;border-radius:14px!important;padding:20px 24px!important;margin-top:16px!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .incl b.t{display:block!important;font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;color:var(--ink-900)!important;margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g{display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:10px 22px!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g div{display:flex!important;gap:9px!important;font-size:17px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g svg{flex:none!important;margin-top:4px!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g b{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .incl p{color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .icta{position:relative!important;margin:48px 0 0!important;padding:62px 0 58px!important;color:#fff!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .icta::before{content:""!important;position:absolute!important;inset:0!important;left:50%!important;width:100vw!important;transform:translateX(-50%)!important;
+  background:var(--espresso-gradient)!important;z-index:0!important;pointer-events:none!important;
+  box-shadow:inset 0 1px 0 rgba(217,188,134,.34),inset 0 -1px 0 rgba(217,188,134,.34)!important}
+:is(#urology-hsinchu-cms,#yh) .icta>*{position:relative!important;z-index:1!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x{max-width:780px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x .eb{display:flex!important;align-items:center!important;gap:9px!important;font:600 13px/1 var(--font-mono)!important;
+  letter-spacing:.22em!important;color:var(--brass-300)!important;margin-bottom:16px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x .eb::before{content:""!important;width:26px!important;height:2px!important;background:var(--brass-500)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x b{display:block!important;font-family:var(--font-serif)!important;font-size:32px!important;font-weight:700!important;
+  line-height:1.45!important;color:#fff!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x span{display:block!important;font-size:17.5px!important;line-height:1.9!important;color:rgba(255,255,255,.84)!important}
+:is(#urology-hsinchu-cms,#yh) .icta .btns{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important;max-width:560px!important;margin-top:30px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .btn{padding:18px 18px!important;font-size:16.5px!important;border-radius:9px!important;width:100%!important}
+:is(#urology-hsinchu-cms,#yh) .icta .btn.ghost{background:none!important;border:1px solid rgba(217,188,134,.55)!important;color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .icta .btn.ghost:hover{background:rgba(179,135,62,.16)!important}
+:is(#urology-hsinchu-cms,#yh) .btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:8px!important;padding:12px 24px!important;border-radius:8px!important;font-size:15px!important;font-weight:600!important;text-decoration:none!important}
+:is(#urology-hsinchu-cms,#yh) .btn-brass{background:var(--brass-500)!important;color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .btn-brass:hover{background:var(--brass-600)!important}
+:is(#urology-hsinchu-cms,#yh) .btn-line{background:var(--line)!important;color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .tl{position:relative!important;display:grid!important;grid-template-columns:1fr!important;gap:0!important}
+:is(#urology-hsinchu-cms,#yh) .tl::before{content:""!important;position:absolute!important;top:18px!important;bottom:18px!important;left:15px!important;width:2px!important;
+  background:linear-gradient(180deg,var(--brass-500),var(--sunken))!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n{position:relative!important;display:grid!important;grid-template-columns:32px 1fr!important;column-gap:16px!important;text-align:left!important;
+  align-items:start!important;padding:12px 0!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n>i{width:32px!important;height:32px!important;border-radius:50%!important;background:var(--brass-500)!important;color:#fff!important;font-family:var(--font-latin)!important;font-size:17px!important;font-weight:600!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;position:relative!important;z-index:1!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n>i{grid-column:1!important;grid-row:1/span 2!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n b{grid-column:2!important;grid-row:1!important;display:block!important;font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important;margin:5px 0 4px!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n p{grid-column:2!important;grid-row:2!important;margin:0!important;font-size:15px!important;line-height:1.7!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .care{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important}
+:is(#urology-hsinchu-cms,#yh) .care .c{border-radius:16px!important;overflow:hidden!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) .care .do{border:1px solid rgba(78,122,90,.3)!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont{border:1px solid rgba(90,70,52,.3)!important}
+:is(#urology-hsinchu-cms,#yh) .care .h{padding:13px 18px!important;display:flex!important;align-items:center!important;gap:9px!important;font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .care .do .h{background:var(--success-bg)!important;color:var(--success-ink)!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont .h{background:var(--brown-100)!important;color:var(--brown-800)!important}
+:is(#urology-hsinchu-cms,#yh) .care .b{padding:16px 18px!important;display:grid!important;gap:11px!important;font-size:17px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) .care .b div{display:flex!important;gap:9px!important}
+:is(#urology-hsinchu-cms,#yh) .care .do .b i{color:var(--success)!important;flex:none!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont .b{color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont .b i{color:var(--brown-700)!important;flex:none!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .flag{background:var(--danger-bg)!important;border:1px solid rgba(168,65,47,.25)!important;border-left:4px solid var(--danger)!important;border-radius:0 14px 14px 0!important;padding:20px 24px!important;margin:26px 0!important}
+:is(#urology-hsinchu-cms,#yh) .flag .h{display:flex!important;align-items:center!important;gap:10px!important;margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .flag h3{font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;color:var(--danger-ink)!important;margin:0!important}
+:is(#urology-hsinchu-cms,#yh) .flag p{margin:0!important;font-size:17px!important;line-height:1.85!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .quote{position:relative!important;background:linear-gradient(135deg,var(--brown-100),var(--sunken))!important;border-radius:18px!important;padding:36px 40px 32px!important;overflow:hidden!important;margin:30px 0!important}
+:is(#urology-hsinchu-cms,#yh) .quote::before{content:"C"!important;position:absolute!important;top:6px!important;left:22px!important;font-family:var(--font-latin)!important;font-size:120px!important;line-height:1!important;color:rgba(90,70,52,.22)!important}
+:is(#urology-hsinchu-cms,#yh) .quote p{position:relative!important;font-family:var(--font-serif)!important;font-size:23px!important;font-weight:700!important;line-height:1.65!important;color:var(--ink-700)!important;margin:0 0 18px!important}
+:is(#urology-hsinchu-cms,#yh) .quote footer{position:relative!important;display:flex!important;align-items:center!important;gap:12px!important}
+:is(#urology-hsinchu-cms,#yh) .quote .av{width:44px!important;height:44px!important;border-radius:50% 50% 50% 12px!important;background:linear-gradient(145deg,var(--brown-500),var(--brown-800))!important;color:#fff!important;font-family:var(--font-serif)!important;font-size:20px!important;font-weight:700!important;display:flex!important;align-items:center!important;justify-content:center!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .quote .who{font-size:15px!important;color:var(--brown-800)!important;line-height:1.5!important}
+:is(#urology-hsinchu-cms,#yh) .flow{overflow-x:auto!important}
+:is(#urology-hsinchu-cms,#yh) .flow svg{min-width:600px!important;width:100%!important;font-family:var(--font-sans)!important}
+:is(#urology-hsinchu-cms,#yh) .chk{display:grid!important;grid-template-columns:1fr 1fr!important;gap:12px 26px!important}
+:is(#urology-hsinchu-cms,#yh) .chk div{display:flex!important;gap:12px!important;align-items:flex-start!important;font-size:17px!important;line-height:1.65!important}
+:is(#urology-hsinchu-cms,#yh) .chk .box{width:20px!important;height:20px!important;border:1.5px solid var(--brass-500)!important;border-radius:5px!important;flex:none!important;margin-top:4px!important}
+:is(#urology-hsinchu-cms,#yh) .chk-f{background:var(--brass-100)!important;border-radius:12px!important;padding:14px 20px!important;margin-top:18px!important;font-size:15px!important;line-height:1.75!important;color:var(--brown-800)!important}
+:is(#urology-hsinchu-cms,#yh) .locs{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(228px,1fr))!important;gap:16px!important;margin-top:24px!important}
+:is(#urology-hsinchu-cms,#yh) .loc{border:1px solid rgba(90,70,52,.25)!important;border-radius:16px!important;overflow:hidden!important;background:var(--card)!important;box-shadow:0 14px 34px -28px rgba(90,70,52,.5)!important;display:flex!important;flex-direction:column!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h{background:linear-gradient(135deg,var(--brown-500),var(--brown-800))!important;padding:16px 20px!important;color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h .en{font:600 13px/1 var(--font-mono)!important;letter-spacing:.16em!important;opacity:.85!important;margin-bottom:5px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h .nm{font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;line-height:1.35!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h .dr{font-size:14px!important;font-weight:600!important;opacity:.9!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b{padding:18px 20px!important;display:grid!important;gap:11px!important;font-size:15px!important;color:var(--ink-500)!important;flex:1!important;align-content:start!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b div{display:flex!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b svg{flex:none!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b .tel{font-family:var(--font-latin)!important;font-size:18px!important;font-weight:600!important;color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b a.ln{margin-top:auto!important;background:var(--line)!important;color:#fff!important;padding:11px!important;border-radius:8px!important;font-size:15px!important;font-weight:600!important;text-align:center!important;text-decoration:none!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .faq{display:grid!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .faq details{background:var(--card)!important;border:1px solid var(--hairline)!important;border-radius:14px!important;box-shadow:var(--shadow-card)!important;overflow:hidden!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary{list-style:none!important;cursor:pointer!important;padding:18px 22px!important;display:flex!important;justify-content:space-between!important;align-items:center!important;gap:12px!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary::-webkit-details-marker{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary .q{display:inline-flex!important;align-items:center!important;gap:11px!important;font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary .q i{width:26px!important;height:26px!important;border-radius:50%!important;background:var(--brass-100)!important;color:var(--brass-700)!important;font-family:var(--font-latin)!important;font-size:16px!important;font-weight:600!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:none!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary .ar{flex:none!important;transition:transform .3s ease!important}
+:is(#urology-hsinchu-cms,#yh) .faq details[open] summary .ar{transform:rotate(180deg)!important}
+:is(#urology-hsinchu-cms,#yh) .faq .a{padding:0 22px 18px!important;font-size:17px!important;line-height:1.85!important}
+:is(#urology-hsinchu-cms,#yh) .faq .a p{margin:0 0 12px!important}
+:is(#urology-hsinchu-cms,#yh) .faq .a p:last-child{margin-bottom:0!important}
+:is(#urology-hsinchu-cms,#yh) .cta-in{max-width:var(--wrap)!important;margin:0 auto!important;padding:0 24px!important}
+:is(#urology-hsinchu-cms,#yh) .byline{background:var(--card)!important;border:1px solid var(--hairline)!important;border-radius:16px!important;padding:22px 26px!important;box-shadow:var(--shadow-card)!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h{display:flex!important;align-items:center!important;gap:12px!important;padding-bottom:13px!important;border-bottom:1px dashed rgba(28,23,18,.15)!important}
+:is(#urology-hsinchu-cms,#yh) .byline .seal{width:40px!important;height:40px!important;border-radius:50% 50% 50% 10px!important;background:linear-gradient(145deg,var(--brass-300),var(--brass-600))!important;color:#fff!important;font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;display:flex!important;align-items:center!important;justify-content:center!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h b{font-size:15px!important;font-weight:600!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h .m{font:600 13px/1 var(--font-mono)!important;letter-spacing:.1em!important;color:var(--ink-300)!important;margin-top:5px!important}
+:is(#urology-hsinchu-cms,#yh) .refs{margin-top:18px!important}
+:is(#urology-hsinchu-cms,#yh) .refs summary{cursor:pointer!important;font-size:15px!important;font-weight:600!important;color:var(--brass-700)!important;list-style:none!important}
+:is(#urology-hsinchu-cms,#yh) .refs summary::-webkit-details-marker{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .refs summary::before{content:"＋ "!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .refs[open] summary::before{content:"－ "!important}
+:is(#urology-hsinchu-cms,#yh) .refs ol{margin:14px 0 0!important;padding-left:22px!important;font-size:13px!important;line-height:1.85!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .refs li{margin:5px 0!important;scroll-margin-top:24px!important}
+:is(#urology-hsinchu-cms,#yh) .disc{font-size:12.5px!important;line-height:1.85!important;color:var(--ink-300)!important;margin-top:18px!important}
+:is(#urology-hsinchu-cms,#yh) .more{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:16px!important;margin-top:24px!important}
+:is(#urology-hsinchu-cms,#yh) .mc{display:flex!important;flex-direction:column!important;background:var(--card)!important;border:1px solid var(--hairline)!important;border-top:3px solid var(--brass-500)!important;border-radius:14px!important;padding:22px 22px 18px!important;text-decoration:none!important;box-shadow:var(--shadow-card)!important;transition:border-color .3s ease,transform .3s ease!important}
+:is(#urology-hsinchu-cms,#yh) .mc:hover{border-color:var(--brass-500)!important;transform:translateY(-4px)!important}
+:is(#urology-hsinchu-cms,#yh) .mc .mk{font:600 13px/1 var(--font-mono)!important;letter-spacing:.16em!important;color:var(--brass-700)!important;margin-bottom:9px!important}
+:is(#urology-hsinchu-cms,#yh) .mc .mt{font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;color:var(--ink-900)!important;line-height:1.5!important;margin-bottom:9px!important}
+:is(#urology-hsinchu-cms,#yh) .mc .md{font-size:15px!important;line-height:1.8!important;color:var(--ink-500)!important;flex:1!important}
+:is(#urology-hsinchu-cms,#yh) .mc .ma{margin-top:15px!important;font-size:15px!important;font-weight:600!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) figure{margin:26px 0!important}
+:is(#urology-hsinchu-cms,#yh) figure img{width:100%!important;height:auto!important;border-radius:14px!important;border:1px solid var(--hairline)!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) figcaption{font-size:12.5px!important;line-height:1.7!important;color:var(--ink-300)!important;margin-top:11px!important;padding-top:10px!important;border-top:1px solid var(--hairline)!important}
+:is(#urology-hsinchu-cms,#yh) .vid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:14px!important;margin:22px 0!important}
+:is(#urology-hsinchu-cms,#yh) .vid a{display:block!important;border:1px solid var(--hairline)!important;border-radius:14px!important;padding:18px 20px!important;background:var(--card)!important;text-decoration:none!important;box-shadow:var(--shadow-card)!important}
+:is(#urology-hsinchu-cms,#yh) .vid a:hover{border-color:var(--brass-500)!important}
+:is(#urology-hsinchu-cms,#yh) .vid .ep{font:600 13px/1 var(--font-mono)!important;letter-spacing:.14em!important;color:var(--brass-700)!important;margin-bottom:7px!important}
+:is(#urology-hsinchu-cms,#yh) .vid .tt{font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important;line-height:1.5!important}
+:is(#urology-hsinchu-cms,#yh) .div-gold{height:1px!important;background:linear-gradient(90deg,transparent,var(--brass-500),transparent)!important;opacity:.5!important}
+@media(max-width:1023px){:is(#urology-hsinchu-cms,#yh) .hero .inner{left:40px!important;width:min(480px,60vw)!important;bottom:40px!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1{font-size:44px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font-size:22px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font-size:18px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn{height:56px!important;font-size:18px!important}
+:is(#urology-hsinchu-cms,#yh) .gcards{grid-template-columns:1fr 1fr!important}
+:is(#urology-hsinchu-cms,#yh) .price{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .price .p.mark{order:-1!important}
+:is(#urology-hsinchu-cms,#yh) .trust .top{gap:18px!important}
+:is(#urology-hsinchu-cms,#yh) .toc{grid-template-columns:1fr!important;gap:16px!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) section.ch{padding:40px 0!important}
+:is(#urology-hsinchu-cms,#yh) .opener{margin-bottom:16px!important}
+:is(#urology-hsinchu-cms,#yh) .opener .ob{min-width:0!important;width:100%!important;padding:14px 12px!important}
+:is(#urology-hsinchu-cms,#yh) .opener .eb{font-size:11px!important;margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .opener h2{font-size:30px!important}
+:is(#urology-hsinchu-cms,#yh) h3.q{font-size:20px!important;margin:26px 0 12px!important}
+:is(#urology-hsinchu-cms,#yh) .card{padding:20px 18px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .mtop{display:flex!important;justify-content:space-between!important;align-items:center!important;position:absolute!important;left:20px!important;right:20px!important;top:14px!important;z-index:2!important}
+:is(#urology-hsinchu-cms,#yh) .hero .mtop .lg{width:26px!important;height:26px!important;border-radius:50%!important;background:var(--brass-button)!important;color:var(--ink-900)!important;font:700 13px/26px var(--font-serif)!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .hero .mtop .pill{font:600 9px/1 var(--font-mono)!important;letter-spacing:.14em!important;background:rgba(255,255,255,.7)!important;color:var(--ink-900)!important;padding:6px 10px!important;border-radius:999px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{left:20px!important;right:20px!important;width:auto!important;bottom:8px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb{margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb::before{width:18px!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1{font-size:32px!important;line-height:1.22!important;margin-bottom:6px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font-size:17px!important;margin-bottom:6px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font-size:14px!important;line-height:1.6!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btns{gap:8px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn{height:48px!important;border-radius:7px!important;font-size:16px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .b2{background:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .rev .wrap{flex-direction:column!important;align-items:flex-start!important;gap:8px!important;padding:12px 20px!important;min-height:0!important}
+:is(#urology-hsinchu-cms,#yh) .rev .l{width:100%!important;min-width:0!important;gap:8px!important}
+:is(#urology-hsinchu-cms,#yh) .rev .nm{font-size:14px!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .rev .role{font-size:12px!important;margin-left:4px!important;min-width:0!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
+:is(#urology-hsinchu-cms,#yh) .rev .r{width:100%!important;flex-wrap:nowrap!important;gap:8px!important;min-width:0!important}
+:is(#urology-hsinchu-cms,#yh) .rev .r .n{font-size:13px!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .rev .r .c{font-size:12px!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .toc ol{grid-template-columns:1fr 1fr!important;gap:8px 12px!important}
+:is(#urology-hsinchu-cms,#yh) .toc li{gap:8px!important;padding:6px 0!important;border-bottom:none!important;min-width:0!important}
+:is(#urology-hsinchu-cms,#yh) .toc li .n{font-size:16px!important;width:20px!important}
+:is(#urology-hsinchu-cms,#yh) .toc a{font-size:15px!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;display:block!important;min-width:0!important}
+:is(#urology-hsinchu-cms,#yh) .toc li:nth-child(n+11){display:none!important}
+:is(#urology-hsinchu-cms,#yh) .toc input:checked ~ ol li:nth-child(n+11){display:flex!important}
+:is(#urology-hsinchu-cms,#yh) .toc .more-t{display:block!important;margin-top:10px!important;font:600 14px/1 var(--font-sans)!important;color:var(--brass-700)!important;cursor:pointer!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .toc input:checked ~ .more-t{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .gcards,:is(#urology-hsinchu-cms,#yh) .gcards.five{grid-template-columns:1fr 1fr!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.five .gc,:is(#urology-hsinchu-cms,#yh) .gcards.five .gc:nth-child(4){grid-column:span 1!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.five .gc:nth-child(5){grid-column:span 2!important}
+:is(#urology-hsinchu-cms,#yh) .gc{padding:18px 16px!important}
+:is(#urology-hsinchu-cms,#yh) .gc .t{font-size:17px!important}
+:is(#urology-hsinchu-cms,#yh) .gc .d{font-size:14px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m{display:block!important;border:1px solid var(--hairline)!important;border-radius:14px!important;overflow:hidden!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .g{padding:12px 15px!important;border-bottom:1px solid rgba(28,23,18,.08)!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .g:last-child{border-bottom:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .k{font:600 13px/1 var(--font-mono)!important;letter-spacing:.1em!important;color:var(--ink-300)!important;margin-bottom:7px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l{display:flex!important;justify-content:space-between!important;gap:12px!important;margin-top:4px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l .a{color:var(--brass-700)!important;font-weight:600!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l .b{color:var(--brown-700)!important;font-weight:600!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l span:last-child{text-align:right!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div+div{border-left:none!important;border-top:1px solid rgba(28,23,18,.06)!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .care,:is(#urology-hsinchu-cms,#yh) .chk,:is(#urology-hsinchu-cms,#yh) .incl .g,:is(#urology-hsinchu-cms,#yh) .vid,:is(#urology-hsinchu-cms,#yh) .more{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f{font-size:15px!important;padding:8px 0!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n{display:grid!important;grid-template-columns:32px 1fr!important;column-gap:13px!important;text-align:left!important;align-items:start!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n>i{grid-column:1!important;grid-row:1/span 2!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n b{grid-column:2!important;grid-row:1!important;margin:0 0 3px!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n p{grid-column:2!important;grid-row:2!important}
+:is(#urology-hsinchu-cms,#yh) .quote{padding:26px 22px 24px!important}
+:is(#urology-hsinchu-cms,#yh) .quote p{font-size:19px!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h{flex-wrap:wrap!important}
+
+}
+@media(prefers-reduced-motion:reduce){:is(#urology-hsinchu-cms,#yh), :is(#urology-hsinchu-cms,#yh) *{animation:none!important;transition:none!important}
+}
+
+
+:is(#urology-hsinchu-cms,#yh) .tl{position:relative!important;display:grid!important;grid-template-columns:1fr!important;gap:0!important}
+:is(#urology-hsinchu-cms,#yh) .tl::before{content:""!important;position:absolute!important;top:18px!important;bottom:18px!important;left:15px!important;width:2px!important;
+  background:linear-gradient(180deg,var(--brass-500),var(--sunken))!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n{position:relative!important;display:grid!important;grid-template-columns:32px 1fr!important;column-gap:16px!important;
+  text-align:left!important;align-items:start!important;padding:12px 0!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n>i{grid-column:1!important;grid-row:1/span 2!important;width:32px!important;height:32px!important;border-radius:50%!important;
+  background:var(--brass-500)!important;color:#fff!important;font-family:var(--font-latin)!important;font-size:17px!important;font-weight:600!important;
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;position:relative!important;z-index:1!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n b{grid-column:2!important;grid-row:1!important;display:block!important;font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;
+  color:var(--ink-900)!important;margin:5px 0 4px!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n p{grid-column:2!important;grid-row:2!important;margin:0!important;font-size:15px!important;line-height:1.7!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .feat{display:grid!important;grid-template-columns:280px 1fr!important;gap:26px!important;align-items:start!important}
+:is(#urology-hsinchu-cms,#yh) .feat .im{background:var(--brown-100)!important;border-radius:14px!important;overflow:hidden!important}
+:is(#urology-hsinchu-cms,#yh) .feat .im img{width:100%!important;height:100%!important;object-fit:cover!important}
+:is(#urology-hsinchu-cms,#yh) .feat .row{display:flex!important;gap:16px!important;align-items:flex-start!important;padding:17px 0!important;
+  border-bottom:1px dashed rgba(28,23,18,.14)!important}
+:is(#urology-hsinchu-cms,#yh) .feat .row:last-child{border-bottom:none!important;padding-bottom:0!important}
+:is(#urology-hsinchu-cms,#yh) .feat .ic{width:46px!important;height:46px!important;border-radius:50%!important;display:flex!important;align-items:center!important;
+  justify-content:center!important;flex:none!important;background:var(--brass-100)!important}
+:is(#urology-hsinchu-cms,#yh) .feat .row:nth-child(even) .ic{background:var(--sunken)!important}
+:is(#urology-hsinchu-cms,#yh) .feat .row b{display:block!important;font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;
+  color:var(--brown-700)!important;margin-bottom:4px!important}
+:is(#urology-hsinchu-cms,#yh) .feat .row p{margin:0!important;font-size:17px!important;line-height:1.75!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp{border:1px solid var(--hairline)!important;border-radius:16px!important;overflow:hidden!important;background:var(--card)!important;
+  box-shadow:var(--shadow-card)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r{display:grid!important;grid-template-columns:112px 1fr 1fr!important;border-top:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r:first-child{border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r>div{padding:13px 16px!important;font-size:17px!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r>div:first-child{text-align:left!important;font-weight:700!important;color:var(--ink-500)!important;background:var(--alt)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .r>div+div+div{border-left:1px solid rgba(28,23,18,.06)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd>div{padding:14px 16px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd>div:first-child{background:var(--sunken)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .a{background:var(--brass-50)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .b{background:var(--brown-100)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .t{font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .a .t{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .b .t{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .s{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.12em!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .a .s{color:var(--brass-600)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp .hd .b .s{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2{border:1px solid var(--hairline)!important;border-radius:16px!important;overflow:hidden!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r{display:grid!important;grid-template-columns:320px 1fr!important;border-top:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r:first-child{border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div{padding:14px 18px!important;font-size:17px!important;line-height:1.7!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div:first-child{background:var(--alt)!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div+div{border-left:1px solid rgba(28,23,18,.06)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd>div:first-child{background:var(--sunken)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd .a{background:var(--brass-50)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd .t{font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd .s{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.12em!important;
+  color:var(--brass-600)!important;margin-top:3px!important}
+@media(max-width:680px){:is(#urology-hsinchu-cms,#yh) .cmp2 .r{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .r>div+div{border-left:none!important;border-top:1px solid rgba(28,23,18,.06)!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp2 .hd{display:none!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .price{display:grid!important;grid-template-columns:1fr 1fr!important;gap:16px!important;align-items:stretch!important;max-width:820px!important;margin-left:auto!important;margin-right:auto!important}
+:is(#urology-hsinchu-cms,#yh) .price .p{border:1px solid rgba(28,23,18,.12)!important;border-radius:16px!important;background:var(--card)!important;
+  padding:24px 20px!important;box-shadow:0 12px 30px -26px rgba(28,23,18,.4)!important;display:flex!important;flex-direction:column!important}
+:is(#urology-hsinchu-cms,#yh) .price .p.mark{border:1.5px solid var(--brass-500)!important;box-shadow:0 20px 40px -22px rgba(179,135,62,.55)!important;position:relative!important}
+:is(#urology-hsinchu-cms,#yh) .price .p.mark .tag{position:absolute!important;top:-12px!important;left:50%!important;transform:translateX(-50%)!important;
+  background:var(--midnight)!important;color:#fff!important;font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;
+  letter-spacing:.14em!important;padding:6px 13px!important;border-radius:999px!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .t{font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .d{font-size:12.5px!important;color:var(--ink-300)!important;margin:2px 0 14px!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .k{font-family:var(--font-latin)!important;font-size:17px!important;color:var(--ink-500)!important;margin-bottom:2px!important}
+:is(#urology-hsinchu-cms,#yh) .price .p .v{font-family:var(--font-latin)!important;font-size:27px!important;font-weight:600!important;color:var(--brass-700)!important;line-height:1.15!important}
+:is(#urology-hsinchu-cms,#yh) .price .p hr{border:none!important;height:1px!important;background:rgba(28,23,18,.08)!important;margin:16px 0!important}
+:is(#urology-hsinchu-cms,#yh) .price .p.mark hr{background:rgba(179,135,62,.25)!important}
+:is(#urology-hsinchu-cms,#yh) .price .p ul{list-style:none!important;display:grid!important;gap:9px!important;font-size:15px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) .price .p li{display:flex!important;gap:8px!important}
+:is(#urology-hsinchu-cms,#yh) .price .p li svg{flex:none!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .incl{background:var(--brass-50)!important;border:1px solid rgba(179,135,62,.3)!important;border-radius:14px!important;
+  padding:20px 24px!important;margin-top:16px!important}
+:is(#urology-hsinchu-cms,#yh) .incl b.t{display:block!important;font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;
+  color:var(--brown-800)!important;margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g{display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:10px 22px!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g div{display:flex!important;gap:9px!important;font-size:17px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g svg{flex:none!important;margin-top:4px!important}
+:is(#urology-hsinchu-cms,#yh) .care{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important}
+:is(#urology-hsinchu-cms,#yh) .care .c{border-radius:16px!important;overflow:hidden!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) .care .do{border:1px solid rgba(78,122,90,.3)!important;box-shadow:0 12px 30px -24px rgba(78,122,90,.5)!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont{border:1px solid rgba(90,70,52,.3)!important;box-shadow:0 12px 30px -24px rgba(90,70,52,.5)!important}
+:is(#urology-hsinchu-cms,#yh) .care .h{padding:13px 18px!important;display:flex!important;align-items:center!important;gap:9px!important;
+  font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .care .do .h{background:var(--success-bg)!important;color:var(--success-ink)!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont .h{background:var(--brown-100)!important;color:var(--brown-800)!important}
+:is(#urology-hsinchu-cms,#yh) .care .b{padding:16px 18px!important;display:grid!important;gap:11px!important;font-size:17px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) .care .b div{display:flex!important;gap:9px!important}
+:is(#urology-hsinchu-cms,#yh) .care .do .b i{color:var(--success)!important;flex:none!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont .b{color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .care .dont .b i{color:var(--brown-700)!important;flex:none!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .flag{background:var(--danger-bg)!important;border:1px solid rgba(168,65,47,.25)!important;
+  border-left:4px solid var(--danger)!important;border-radius:0 14px 14px 0!important;padding:20px 24px!important;margin:26px 0!important}
+:is(#urology-hsinchu-cms,#yh) .flag .h{display:flex!important;align-items:center!important;gap:10px!important;margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .flag h3{font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;color:var(--danger-ink)!important;margin:0!important}
+:is(#urology-hsinchu-cms,#yh) .flag p{margin:0!important;font-size:17px!important;line-height:1.85!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .quote{position:relative!important;background:linear-gradient(135deg,var(--brown-100),var(--sunken))!important;
+  border-radius:18px!important;padding:36px 40px 32px!important;overflow:hidden!important;margin:30px 0!important}
+:is(#urology-hsinchu-cms,#yh) .quote::before{content:"\201C"!important;position:absolute!important;top:6px!important;left:22px!important;font-family:var(--font-latin)!important;
+  font-size:120px!important;line-height:1!important;color:rgba(90,70,52,.22)!important}
+:is(#urology-hsinchu-cms,#yh) .quote p{position:relative!important;font-family:var(--font-serif)!important;font-size:23px!important;font-weight:700!important;
+  line-height:1.65!important;color:var(--ink-700)!important;margin:0 0 18px!important}
+:is(#urology-hsinchu-cms,#yh) .quote footer{position:relative!important;display:flex!important;align-items:center!important;gap:12px!important}
+:is(#urology-hsinchu-cms,#yh) .quote .av{width:44px!important;height:44px!important;border-radius:50% 50% 50% 12px!important;
+  background:linear-gradient(145deg,var(--brown-500),var(--brown-800))!important;color:#fff!important;
+  font-family:var(--font-serif)!important;font-size:20px!important;font-weight:700!important;display:flex!important;
+  align-items:center!important;justify-content:center!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .quote .who{font-size:15px!important;color:var(--brown-800)!important;line-height:1.5!important}
+:is(#urology-hsinchu-cms,#yh) .flow{overflow-x:auto!important}
+:is(#urology-hsinchu-cms,#yh) .flow svg{min-width:600px!important;width:100%!important;font-family:var(--font-sans)!important}
+:is(#urology-hsinchu-cms,#yh) .chk{display:grid!important;grid-template-columns:1fr 1fr!important;gap:12px 26px!important}
+:is(#urology-hsinchu-cms,#yh) .chk div{display:flex!important;gap:12px!important;align-items:flex-start!important;font-size:17px!important;line-height:1.65!important}
+:is(#urology-hsinchu-cms,#yh) .chk .box{width:20px!important;height:20px!important;border:1.5px solid var(--brass-500)!important;border-radius:5px!important;
+  flex:none!important;margin-top:4px!important}
+:is(#urology-hsinchu-cms,#yh) .chk-f{background:var(--brass-100)!important;border-radius:12px!important;padding:14px 20px!important;margin-top:18px!important;
+  font-size:15px!important;line-height:1.75!important;color:var(--brown-800)!important}
+:is(#urology-hsinchu-cms,#yh) .locs{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(228px,1fr))!important;gap:16px!important}
+:is(#urology-hsinchu-cms,#yh) .loc{border:1px solid rgba(90,70,52,.25)!important;border-radius:16px!important;overflow:hidden!important;background:var(--card)!important;
+  box-shadow:0 14px 34px -28px rgba(90,70,52,.5)!important;display:flex!important;flex-direction:column!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h{background:linear-gradient(135deg,var(--brown-500),var(--brown-800))!important;padding:16px 20px!important;color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h .en{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.16em!important;
+  opacity:.85!important;margin-bottom:5px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h .nm{font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;line-height:1.35!important}
+:is(#urology-hsinchu-cms,#yh) .loc .h .dr{font-size:14px!important;font-weight:600!important;opacity:.9!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b{padding:18px 20px!important;display:grid!important;gap:11px!important;font-size:15px!important;color:var(--ink-500)!important;flex:1!important;align-content:start!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b div{display:flex!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b svg{flex:none!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b .tel{font-family:var(--font-latin)!important;font-size:18px!important;font-weight:600!important;color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b a.ln{margin-top:auto!important;background:var(--line)!important;color:#fff!important;padding:11px!important;border-radius:8px!important;
+  font-size:15px!important;font-weight:600!important;text-align:center!important;text-decoration:none!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .team{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:14px!important}
+:is(#urology-hsinchu-cms,#yh) .tm{border:1px solid var(--hairline)!important;border-top:3px solid var(--brown-700)!important;border-radius:16px!important;
+  overflow:hidden!important;background:var(--card)!important;box-shadow:0 12px 30px -26px rgba(90,70,52,.5)!important}
+:is(#urology-hsinchu-cms,#yh) .tm:nth-child(even){border-top-color:var(--brown-500)!important}
+:is(#urology-hsinchu-cms,#yh) .tm .ph{height:132px!important;background:linear-gradient(150deg,var(--brown-100),var(--brown-300))!important;
+  display:flex!important;align-items:center!important;justify-content:center!important}
+:is(#urology-hsinchu-cms,#yh) .tm .ph img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:50% 20%!important}
+:is(#urology-hsinchu-cms,#yh) .tm .b{padding:14px 16px!important}
+:is(#urology-hsinchu-cms,#yh) .tm .role{font-family:var(--font-mono)!important;font-weight:600!important;font-size:12px!important;letter-spacing:.12em!important;
+  color:var(--brown-700)!important;margin-bottom:5px!important}
+:is(#urology-hsinchu-cms,#yh) .tm .nm{font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .tm .sp{font-size:15px!important;color:var(--ink-500)!important;margin-top:5px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) .faq{display:grid!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .faq details{background:var(--card)!important;border:1px solid var(--hairline)!important;border-radius:14px!important;
+  box-shadow:0 12px 30px -28px rgba(28,23,18,.4)!important;overflow:hidden!important}
+:is(#urology-hsinchu-cms,#yh) section.ch:nth-of-type(even) .faq details{background:var(--page)!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary{list-style:none!important;cursor:pointer!important;padding:18px 22px!important;display:flex!important;
+  justify-content:space-between!important;align-items:center!important;gap:12px!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary::-webkit-details-marker{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary .q{display:inline-flex!important;align-items:center!important;gap:11px!important;font-family:var(--font-serif)!important;
+  font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary .q i{width:26px!important;height:26px!important;border-radius:50%!important;background:var(--brass-100)!important;
+  color:var(--brass-700)!important;font-family:var(--font-latin)!important;font-size:16px!important;font-weight:600!important;
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:none!important;font-style:normal!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary .ar{flex:none!important;transition:transform .3s ease!important}
+:is(#urology-hsinchu-cms,#yh) .faq details[open] summary .ar{transform:rotate(180deg)!important}
+:is(#urology-hsinchu-cms,#yh) .faq .a{padding:0 22px 18px 22px!important;font-size:17px!important;line-height:1.85!important}
+:is(#urology-hsinchu-cms,#yh) .faq .a p{margin:0 0 12px!important}
+:is(#urology-hsinchu-cms,#yh) .faq .a p:last-child{margin-bottom:0!important}
+:is(#urology-hsinchu-cms,#yh) .more{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:16px!important;margin-top:24px!important}
+:is(#urology-hsinchu-cms,#yh) .mc{display:flex!important;flex-direction:column!important;background:var(--card)!important;border:1px solid var(--hairline)!important;
+  border-top:3px solid var(--brass-500)!important;border-radius:14px!important;padding:22px 22px 18px!important;
+  text-decoration:none!important;box-shadow:var(--shadow-card)!important;
+  transition:border-color .3s ease,transform .3s ease,box-shadow .3s ease!important}
+:is(#urology-hsinchu-cms,#yh) section.ch:nth-of-type(even) .mc{background:var(--page)!important}
+:is(#urology-hsinchu-cms,#yh) .mc:hover{border-color:var(--brass-500)!important;transform:translateY(-4px)!important;
+  box-shadow:0 22px 40px -26px rgba(28,23,18,.45)!important}
+:is(#urology-hsinchu-cms,#yh) .mc .mk{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.16em!important;
+  color:var(--brass-700)!important;margin-bottom:9px!important}
+:is(#urology-hsinchu-cms,#yh) .mc .mt{font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;color:var(--ink-900)!important;
+  line-height:1.5!important;margin-bottom:9px!important}
+:is(#urology-hsinchu-cms,#yh) .mc .md{font-size:15px!important;line-height:1.8!important;color:var(--ink-500)!important;flex:1!important}
+:is(#urology-hsinchu-cms,#yh) .mc .ma{margin-top:15px!important;font-size:15px!important;font-weight:600!important;color:var(--brass-700)!important}
+@media(max-width:900px){:is(#urology-hsinchu-cms,#yh) .more{grid-template-columns:1fr!important}
+}
+:is(#urology-hsinchu-cms,#yh) .cta{position:relative!important;padding:66px 0 62px!important;color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .cta::before{content:""!important;position:absolute!important;inset:0!important;left:50%!important;width:100vw!important;transform:translateX(-50%)!important;
+  background:var(--espresso-gradient)!important;z-index:0!important;pointer-events:none!important;
+  box-shadow:inset 0 1px 0 rgba(217,188,134,.34),inset 0 -1px 0 rgba(217,188,134,.34)!important}
+:is(#urology-hsinchu-cms,#yh) .cta>*{position:relative!important;z-index:1!important}
+:is(#urology-hsinchu-cms,#yh) .cta .eb{display:flex!important;align-items:center!important;gap:9px!important;font:600 12px/1 var(--font-mono)!important;letter-spacing:.22em!important;
+  color:var(--brass-300)!important;margin-bottom:14px!important}
+:is(#urology-hsinchu-cms,#yh) .cta .eb::before{content:""!important;width:22px!important;height:2px!important;background:var(--brass-500)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .cta .t{font-family:var(--font-serif)!important;font-size:28px!important;font-weight:700!important;line-height:1.4!important;color:#fff!important;margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .cta p{margin:0 0 24px!important;font-size:17px!important;line-height:1.85!important;color:rgba(255,255,255,.82)!important;max-width:720px!important}
+:is(#urology-hsinchu-cms,#yh) .cta p b{color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .cta .btns{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important;max-width:560px!important}
+:is(#urology-hsinchu-cms,#yh) .cta .btn{padding:17px 18px!important;font-size:16.5px!important;border-radius:9px!important;width:100%!important}
+:is(#urology-hsinchu-cms,#yh) .cta .ghost{background:none!important;border:1px solid rgba(217,188,134,.55)!important;color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .cta .ghost:hover{background:rgba(179,135,62,.16)!important}
+:is(#urology-hsinchu-cms,#yh) .byline{background:var(--card)!important;border:1px solid var(--hairline)!important;border-radius:16px!important;
+  padding:22px 26px!important;box-shadow:0 12px 30px -28px rgba(28,23,18,.4)!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h{display:flex!important;align-items:center!important;gap:12px!important;padding-bottom:13px!important;
+  border-bottom:1px dashed rgba(28,23,18,.15)!important}
+:is(#urology-hsinchu-cms,#yh) .byline .seal{width:40px!important;height:40px!important;border-radius:50% 50% 50% 10px!important;
+  background:linear-gradient(145deg,var(--brass-300),var(--brass-600))!important;color:#fff!important;
+  font-family:var(--font-serif)!important;font-size:19px!important;font-weight:700!important;display:flex!important;
+  align-items:center!important;justify-content:center!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h b{font-size:15px!important;font-weight:600!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h .m{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.1em!important;
+  color:var(--ink-300)!important;margin-top:5px!important}
+:is(#urology-hsinchu-cms,#yh) .refs{margin-top:18px!important}
+:is(#urology-hsinchu-cms,#yh) .refs summary{cursor:pointer!important;font-size:15px!important;font-weight:600!important;color:var(--brass-700)!important;list-style:none!important}
+:is(#urology-hsinchu-cms,#yh) .refs summary::-webkit-details-marker{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .refs summary::before{content:"＋ "!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .refs[open] summary::before{content:"－ "!important}
+:is(#urology-hsinchu-cms,#yh) .refs ol{margin:14px 0 0!important;padding-left:22px!important;font-size:13px!important;line-height:1.85!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .refs li{margin:5px 0!important;scroll-margin-top:24px!important}
+:is(#urology-hsinchu-cms,#yh) .disc{font-size:12.5px!important;line-height:1.85!important;color:var(--ink-300)!important;margin-top:18px!important}
+:is(#urology-hsinchu-cms,#yh) figure{margin:26px 0!important}
+:is(#urology-hsinchu-cms,#yh) figure img{width:100%!important;height:auto!important;border-radius:14px!important;border:1px solid var(--hairline)!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) figcaption{font-size:12.5px!important;line-height:1.7!important;color:var(--ink-300)!important;margin-top:11px!important;
+  padding-top:10px!important;border-top:1px solid var(--hairline)!important}
+:is(#urology-hsinchu-cms,#yh) .fig2{display:grid!important;grid-template-columns:1fr 1fr!important;gap:26px!important;align-items:center!important;margin:26px 0!important}
+:is(#urology-hsinchu-cms,#yh) .fig2 figure{margin:0!important}
+:is(#urology-hsinchu-cms,#yh) .vid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:14px!important;margin:22px 0!important}
+:is(#urology-hsinchu-cms,#yh) .vid a{display:block!important;border:1px solid var(--hairline)!important;border-radius:14px!important;padding:18px 20px!important;
+  background:var(--card)!important;text-decoration:none!important;box-shadow:0 12px 30px -28px rgba(28,23,18,.4)!important}
+:is(#urology-hsinchu-cms,#yh) .vid a:hover{border-color:var(--brass-500)!important}
+:is(#urology-hsinchu-cms,#yh) .vid .ep{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.14em!important;
+  color:var(--brass-700)!important;margin-bottom:7px!important}
+:is(#urology-hsinchu-cms,#yh) .vid .tt{font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important;line-height:1.5!important}
+@media(max-width:900px){:is(#urology-hsinchu-cms,#yh) .feat{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .price{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .price .p.mark{order:-1!important}
+:is(#urology-hsinchu-cms,#yh) .team{grid-template-columns:1fr 1fr!important}
+
+}
+@media(max-width:680px){:is(#urology-hsinchu-cms,#yh) .hero .wash{top:auto!important;bottom:0!important;height:56%!important;background:linear-gradient(to top,
+    rgba(250,246,236,.97) 0%,rgba(250,246,236,.90) 30%,rgba(250,246,236,.58) 56%,
+    rgba(250,246,236,.18) 78%,transparent 100%)!important}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{position:absolute!important;left:0!important;right:0!important;bottom:0!important;padding:0 18px 18px!important;margin-top:0!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1,:is(#urology-hsinchu-cms,#yh) .hero .lede{max-width:100%!important}
+:is(#urology-hsinchu-cms,#yh) .hero .dk{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1 .b{font-size:15.5px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1 .a{font-size:clamp(23px,6.2vw,28px)!important;line-height:1.34!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1 .b{font-size:15px!important;line-height:1.55!important;margin-top:6px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lede{font-size:14.5px!important;line-height:1.75!important;margin:9px 0 13px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btns{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btns .btn{padding:13px 10px!important;font-size:14.5px!important;min-height:50px!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .stats{grid-template-columns:1fr 1fr!important;margin-top:-18px!important}
+:is(#urology-hsinchu-cms,#yh) .stats>div:nth-child(2n){border-right:none!important}
+:is(#urology-hsinchu-cms,#yh) .stats>div:nth-child(-n+2){border-bottom:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .doc{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .doc .ph{min-height:200px!important}
+:is(#urology-hsinchu-cms,#yh) .doc .bd{padding:18px 20px 22px!important}
+:is(#urology-hsinchu-cms,#yh) .toc ol{grid-template-columns:1fr 1fr!important;gap:0 14px!important}
+:is(#urology-hsinchu-cms,#yh) .toc li{gap:8px!important;padding:9px 0!important}
+:is(#urology-hsinchu-cms,#yh) .toc li .n{font-size:16px!important;width:18px!important}
+:is(#urology-hsinchu-cms,#yh) .toc a{font-size:14.5px!important;line-height:1.5!important}
+:is(#urology-hsinchu-cms,#yh) .opener{margin-bottom:22px!important}
+:is(#urology-hsinchu-cms,#yh) .opener .ob{min-width:0!important;width:100%!important;padding:15px 10px!important}
+:is(#urology-hsinchu-cms,#yh) .opener .eb{font-size:11.5px!important;letter-spacing:.2em!important;margin-bottom:9px!important}
+:is(#urology-hsinchu-cms,#yh) .opener h2{font-size:25px!important}
+:is(#urology-hsinchu-cms,#yh) .opener .sub{font-size:15px!important}
+:is(#urology-hsinchu-cms,#yh) .lede{font-size:17px!important;line-height:1.85!important;margin-bottom:18px!important}
+:is(#urology-hsinchu-cms,#yh) .card{padding:20px 18px!important}
+:is(#urology-hsinchu-cms,#yh) section.ch{padding:40px 0!important}
+:is(#urology-hsinchu-cms,#yh) .cmp{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m{display:block!important;border:1px solid var(--hairline)!important;border-radius:14px!important;overflow:hidden!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .g{padding:12px 15px!important;border-bottom:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .g:last-child{border-bottom:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .k{font-family:var(--font-mono)!important;font-weight:600!important;font-size:13px!important;letter-spacing:.1em!important;
+    color:var(--ink-300)!important;margin-bottom:7px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l{display:flex!important;justify-content:space-between!important;gap:12px!important;margin-top:4px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l .a{color:var(--brass-700)!important;font-weight:600!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l .b{color:var(--brown-700)!important;font-weight:600!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m .l span:last-child{text-align:right!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m.rate .g{display:grid!important;grid-template-columns:1fr!important;gap:0!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m.rate .k{margin-bottom:4px!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m.rate .l{display:flex!important;justify-content:space-between!important;align-items:baseline!important;gap:12px!important;
+    margin:0!important;padding:9px 0!important;border-top:1px dashed rgba(28,23,18,.12)!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m.rate .l span:first-child{flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .cmp-m.rate .l span:last-child{text-align:right!important;font-weight:700!important;color:var(--ink-900)!important;font-family:var(--font-sans)!important}
+:is(#urology-hsinchu-cms,#yh) .care{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .chk{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .incl .g{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .fig2{grid-template-columns:1fr!important;gap:18px!important}
+:is(#urology-hsinchu-cms,#yh) .vid{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .quote{padding:26px 22px 24px!important}
+:is(#urology-hsinchu-cms,#yh) .quote p{font-size:19px!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n{display:grid!important;grid-template-columns:32px 1fr!important;column-gap:13px!important;
+    text-align:left!important;align-items:start!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n>i{grid-column:1!important;grid-row:1 / span 2!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n b{grid-column:2!important;grid-row:1!important;margin:0 0 3px!important}
+:is(#urology-hsinchu-cms,#yh) .tl .n p{grid-column:2!important;grid-row:2!important}
+:is(#urology-hsinchu-cms,#yh) .team{grid-template-columns:1fr 1fr!important}
+:is(#urology-hsinchu-cms,#yh) .byline .h{flex-wrap:wrap!important}
+
+}
+@media(prefers-reduced-motion:reduce){:is(#urology-hsinchu-cms,#yh), :is(#urology-hsinchu-cms,#yh) *{animation:none!important;transition:none!important}
+}
+:is(#urology-hsinchu-cms,#yh) .vs{display:grid!important;grid-template-columns:1fr 72px 1fr!important;align-items:stretch!important;margin-top:26px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vc{background:var(--card)!important;border:1px solid var(--hairline)!important;border-radius:16px!important;overflow:hidden!important;
+  display:grid!important;grid-template-rows:auto repeat(4,1fr)!important;box-shadow:var(--shadow-card)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vc.a{border:1.5px solid var(--brass-500)!important;box-shadow:0 18px 40px -26px rgba(179,135,62,.55)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vh{position:relative!important;min-height:96px!important;padding:22px 22px 16px!important;text-align:center!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+:is(#urology-hsinchu-cms,#yh) .vs .a .vh{background:var(--brass-50)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .b .vh{background:var(--brown-100)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vh .t{font-family:var(--font-serif)!important;font-size:21px!important;font-weight:700!important;line-height:1.3!important}
+:is(#urology-hsinchu-cms,#yh) .vs .a .vh .t{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .b .vh .t{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vh .s{font:600 12px/1 var(--font-mono)!important;letter-spacing:.16em!important;margin-top:6px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .a .vh .s{color:var(--brass-600)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .b .vh .s{color:var(--brown-500)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vh .tag{position:absolute!important;top:10px!important;left:50%!important;transform:translateX(-50%)!important;font:600 11px/1 var(--font-mono)!important;letter-spacing:.12em!important;
+  color:#fff!important;background:var(--brass-button)!important;border-radius:999px!important;padding:5px 10px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .a .vh{padding-top:34px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vr{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:14px!important;padding:15px 22px!important;border-top:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vr .k{flex:none!important;font-weight:500!important;line-height:1.5!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vr .v{font-weight:700!important;line-height:1.5!important;color:var(--ink-900)!important;text-align:right!important;display:inline-flex!important;align-items:center!important;gap:9px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .a .vr .v::before{content:""!important;width:8px!important;height:8px!important;background:var(--brass-500)!important;transform:rotate(45deg)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .vs .b .vr .v{font-weight:500!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .b .vr .v::before{content:""!important;width:10px!important;height:2px!important;background:var(--brown-300)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vm{align-self:center!important;justify-self:center!important;width:46px!important;height:46px!important;border-radius:50%!important;background:var(--espresso-gradient)!important;color:var(--brass-300)!important;
+  font:700 15px/1 var(--font-latin)!important;letter-spacing:.08em!important;display:grid!important;place-items:center!important;border:2px solid var(--card)!important;box-shadow:0 8px 20px -10px rgba(28,23,18,.6)!important;position:relative!important;z-index:1!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vf{grid-column:1/-1!important;margin-top:16px!important;background:var(--card)!important;border:1px solid var(--brass-300)!important;border-left:4px solid var(--brass-500)!important;border-radius:12px!important;padding:14px 22px!important;
+  display:flex!important;align-items:center!important;gap:16px!important;flex-wrap:wrap!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vf .k{font-size:var(--pair)!important;font-weight:500!important;line-height:1.5!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vf b{font-family:var(--font-serif)!important;font-size:21px!important;font-weight:700!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vf .x{font-size:15px!important;color:var(--ink-500)!important;margin-left:auto!important}
+:is(#urology-hsinchu-cms,#yh) .vs.five .vc{grid-template-rows:auto repeat(5,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .vs.six .vc{grid-template-rows:auto repeat(6,1fr)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .vs{grid-template-columns:1fr!important;margin-top:18px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vc{grid-template-rows:auto!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vm{width:38px!important;height:38px!important;font-size:13px!important;margin:-8px auto!important;z-index:2!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vh{min-height:0!important;padding:16px 16px 12px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .a .vh{padding-top:30px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vh .t{font-size:19px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vr{padding:12px 16px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vf{margin-top:12px!important;padding:12px 16px!important;gap:10px 14px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vf b{font-size:19px!important}
+:is(#urology-hsinchu-cms,#yh) .vs .vf .x{margin-left:0!important;width:100%!important;font-size:14px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .keybox{max-width:var(--read)!important;margin:26px auto 0!important;background:var(--espresso-gradient)!important;color:#fff!important;
+  border:1px solid var(--dark-card-border)!important;border-radius:16px!important;padding:28px 30px!important;
+  box-shadow:0 20px 44px -28px rgba(28,23,18,.75)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kh{display:flex!important;align-items:center!important;gap:10px!important;font:600 13px/1 var(--font-mono)!important;
+  letter-spacing:.18em!important;color:var(--brass-300)!important;margin-bottom:14px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kh::before{content:""!important;width:9px!important;height:9px!important;background:var(--brass-500)!important;transform:rotate(45deg)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kt{font-family:var(--font-serif)!important;font-size:22px!important;font-weight:700!important;line-height:1.45!important;color:#fff!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox p{margin:0!important;font-size:16px!important;line-height:1.9!important;color:rgba(255,255,255,.84)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox p b{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kl{display:grid!important;gap:12px!important;margin:16px 0 0!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kl.two{grid-template-columns:1fr 1fr!important;gap:12px 14px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kl>div{display:grid!important;grid-template-columns:1fr!important;gap:3px!important;padding:13px 16px!important;
+  background:rgba(255,255,255,.06)!important;border-left:2px solid var(--brass-500)!important;border-radius:0 10px 10px 0!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kl b{font-size:16px!important;font-weight:700!important;color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kl span{font-size:15px!important;line-height:1.75!important;color:rgba(255,255,255,.72)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .price{grid-template-columns:1fr 1fr!important;max-width:none!important;margin:0!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .price .p{border-color:var(--dark-card-border)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .price .p .t,:is(#urology-hsinchu-cms,#yh) .keybox .price .p li{color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .price .p .d{color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .price .p .k{color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .pn{margin:14px 0 0!important;font-size:13px!important;line-height:1.75!important;color:rgba(255,255,255,.6)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .pn b{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .pn sup a{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kn{margin-top:16px!important;padding-top:14px!important;border-top:1px solid rgba(217,188,134,.28)!important;
+  font-size:13px!important;line-height:1.7!important;color:rgba(255,255,255,.6)!important}
+:is(#urology-hsinchu-cms,#yh) .keybox sup a{color:var(--brass-300)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .keybox{padding:22px 18px!important;border-radius:14px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kt{font-size:19px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kl.two,:is(#urology-hsinchu-cms,#yh) .keybox .price{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .keybox .kl>div{padding:11px 13px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .mech .mk{font:600 13px/1 var(--font-mono)!important;letter-spacing:.16em!important;color:var(--brass-700)!important;margin-bottom:16px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .chain{display:grid!important;grid-template-columns:1fr 26px 1fr 26px 1fr 26px 1fr!important;gap:0 6px!important;align-items:stretch!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd{border:1.5px solid var(--sunken)!important;border-radius:14px!important;background:var(--card)!important;padding:14px 12px!important;text-align:center!important;
+  display:flex!important;flex-direction:column!important;justify-content:center!important;gap:4px!important;min-width:0!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd b{font-size:16px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd span{font-size:13px!important;line-height:1.5!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd.gold{background:var(--brass-50)!important;border-color:var(--brass-500)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd.cut{background:var(--brown-100)!important;border-color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd.cut b,:is(#urology-hsinchu-cms,#yh) .mech .nd.cut span{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd.mute b{color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd.mute span{color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar{align-self:center!important;justify-self:center!important;position:relative!important;width:26px!important;height:12px!important;color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar::before{content:""!important;position:absolute!important;left:0!important;top:5px!important;width:18px!important;height:1.5px!important;background:currentColor!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar::after{content:""!important;position:absolute!important;left:14px!important;top:2px!important;width:7px!important;height:7px!important;border-top:1.5px solid currentColor!important;
+  border-right:1.5px solid currentColor!important;transform:rotate(45deg)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar.off{color:var(--brown-300)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar.off::before{background:none!important;border-top:1.5px dashed currentColor!important;height:0!important}
+:is(#urology-hsinchu-cms,#yh) .mech .outs{display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px!important;margin-top:14px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ou{border:1.5px solid var(--sunken)!important;border-radius:12px!important;padding:12px 14px!important;font-size:14px!important;line-height:1.6!important;
+  color:var(--ink-500)!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ou b{color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ou.gold{background:var(--brass-100)!important;border-color:var(--brass-500)!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ou.gold b{color:var(--brass-700)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .mech .chain{grid-template-columns:1fr!important;gap:0!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd{padding:12px!important;flex-direction:row!important;justify-content:flex-start!important;gap:10px!important;text-align:left!important;flex-wrap:wrap!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd b{font-size:15px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .nd span{font-size:13px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar{width:12px!important;height:22px!important;justify-self:start!important;margin-left:22px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar::before{left:5px!important;top:0!important;width:1.5px!important;height:16px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar::after{left:2px!important;top:12px!important;transform:rotate(135deg)!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ar.off::before{background:none!important;border-top:none!important;border-left:1.5px dashed currentColor!important;width:0!important;height:16px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .outs{grid-template-columns:1fr!important;gap:8px!important}
+:is(#urology-hsinchu-cms,#yh) .mech .ou{text-align:left!important;font-size:13.5px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .lnk{color:var(--brass-700)!important;text-decoration:underline!important;text-underline-offset:3px!important}
+:is(#urology-hsinchu-cms,#yh) .lnk.b{font-weight:600!important}
+:is(#urology-hsinchu-cms,#yh) .w600{font-weight:600!important}
+:is(#urology-hsinchu-cms,#yh) .mw-none{max-width:none!important}
+:is(#urology-hsinchu-cms,#yh) .ml-auto{margin-left:auto!important}
+:is(#urology-hsinchu-cms,#yh) .mt0{margin-top:0!important}
+:is(#urology-hsinchu-cms,#yh) .mt12{margin-top:12px!important}
+:is(#urology-hsinchu-cms,#yh) .mt14{margin-top:14px!important}
+:is(#urology-hsinchu-cms,#yh) .mt16{margin-top:16px!important}
+:is(#urology-hsinchu-cms,#yh) .mt20{margin-top:20px!important}
+:is(#urology-hsinchu-cms,#yh) .mt22{margin-top:22px!important}
+:is(#urology-hsinchu-cms,#yh) .mt24{margin-top:24px!important}
+:is(#urology-hsinchu-cms,#yh) .mt30{margin-top:30px!important}
+:is(#urology-hsinchu-cms,#yh) .my18{margin:18px 0 26px!important}
+:is(#urology-hsinchu-cms,#yh) .my22{margin:22px 0!important}
+:is(#urology-hsinchu-cms,#yh) .figw{margin:30px auto 34px!important;max-width:var(--read)!important}
+:is(#urology-hsinchu-cms,#yh) .figw.tall{max-width:560px!important}
+:is(#urology-hsinchu-cms,#yh) .figw img{width:100%!important;height:auto!important;display:block!important;border-radius:14px!important;border:1px solid var(--hairline)!important}
+:is(#urology-hsinchu-cms,#yh) .figw figcaption{font-size:12.5px!important;line-height:1.7!important;color:var(--ink-300)!important;margin-top:11px!important;
+  padding-top:10px!important;border-top:1px solid var(--hairline)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .figw img{border-color:var(--dark-card-border)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .figw figcaption{color:var(--brass-300)!important;border-top-color:rgba(217,188,134,.28)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .figw{margin:22px auto 26px!important}
+}
+:is(#urology-hsinchu-cms,#yh) .figp{margin:26px auto 0!important;max-width:460px!important}
+:is(#urology-hsinchu-cms,#yh) .figp img{width:100%!important;height:auto!important;display:block!important;border-radius:14px!important;border:1px solid var(--hairline)!important}
+:is(#urology-hsinchu-cms,#yh) .figp figcaption{font-size:12.5px!important;line-height:1.7!important;color:var(--ink-300)!important;margin-top:11px!important;padding-top:10px!important;
+  border-top:1px solid var(--hairline)!important;text-align:left!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .figp{max-width:100%!important;margin-top:20px!important}
+}
+:is(#urology-hsinchu-cms,#yh) .ii{width:52px!important;height:52px!important;object-fit:contain!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .icards{display:grid!important;grid-template-columns:1fr 1fr!important;gap:14px!important;margin-top:22px!important}
+:is(#urology-hsinchu-cms,#yh) .icards .ic{display:grid!important;grid-template-columns:78px 1fr!important;gap:16px!important;align-items:start!important;
+  background:var(--alt)!important;border:1px solid var(--hairline)!important;border-radius:14px!important;padding:18px 20px!important}
+:is(#urology-hsinchu-cms,#yh) .icards .ic .ii{width:78px!important;height:78px!important}
+:is(#urology-hsinchu-cms,#yh) .icards .ic b{display:block!important;font-size:16px!important;font-weight:700!important;color:var(--brass-700)!important;margin-bottom:5px!important}
+:is(#urology-hsinchu-cms,#yh) .icards .ic span{font-size:15px!important;line-height:1.75!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .icards .ic span strong{color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .acards{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:0!important;margin-top:22px!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac{padding:0 22px!important;text-align:center!important;border-left:1px solid var(--hairline)!important;display:flex!important;flex-direction:column!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac:first-child{border-left:none!important;padding-left:0!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac:last-child{padding-right:0!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac b{display:block!important;font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;color:var(--brass-700)!important;margin-bottom:14px!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac .ii{width:132px!important;height:132px!important;margin:0 auto 18px!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac ul{list-style:none!important;display:grid!important;gap:8px!important;text-align:left!important;font-size:15px!important;line-height:1.7!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac li{display:flex!important;gap:8px!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac li::before{content:"・"!important;color:var(--brass-500)!important;flex:none!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .icards{grid-template-columns:1fr!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .icards .ic{grid-template-columns:60px 1fr!important;gap:14px!important;padding:16px 16px!important}
+:is(#urology-hsinchu-cms,#yh) .icards .ic .ii{width:60px!important;height:60px!important}
+:is(#urology-hsinchu-cms,#yh) .acards{grid-template-columns:1fr!important;gap:18px!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac{padding:0 0 18px!important;border-left:none!important;border-bottom:1px solid var(--hairline)!important;display:grid!important;grid-template-columns:64px 1fr!important;gap:0 14px!important;text-align:left!important;align-items:start!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac:last-child{border-bottom:none!important;padding-bottom:0!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac{display:grid!important;grid-template-columns:84px 1fr!important;gap:0 16px!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac .ii{width:84px!important;height:84px!important;margin:0!important;grid-row:1/span 3!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac b{margin-bottom:8px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .acards .ac ul.no{margin-top:10px!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac ul.no li{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) .acards .ac ul.no li::before{content:"✕"!important;color:var(--brown-500)!important;font-size:12px!important;line-height:1.6!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark{position:relative!important;background:none!important;color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark::before{content:""!important;position:absolute!important;inset:0!important;left:50%!important;width:100vw!important;
+  transform:translateX(-50%)!important;background:var(--espresso-gradient)!important;z-index:0!important;pointer-events:none!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark > *{position:relative!important;z-index:1!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark p,:is(#urology-hsinchu-cms,#yh) section.ch.dark .lede{color:rgba(255,255,255,.84)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark strong,:is(#urology-hsinchu-cms,#yh) section.ch.dark b{color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .tK,:is(#urology-hsinchu-cms,#yh) section.ch.dark em{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .note{color:rgba(255,255,255,.62)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .note b{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark sup a{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .opener .ob{border-color:rgba(217,188,134,.4)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .opener .eb{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .opener h2,:is(#urology-hsinchu-cms,#yh) section.ch.dark .opener h2 .k{color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vc{border-color:var(--dark-card-border)!important;box-shadow:0 14px 30px -18px rgba(0,0,0,.6)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vc.a{border:1.5px solid var(--brass-500)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .a .vh .t{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .b .vh .t{color:var(--brown-700)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .a .vh .s{color:var(--brass-600)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .b .vh .s{color:var(--brown-500)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vr .k{color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .a .vr .v{color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .b .vr .v{color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vm{background:var(--brass-button)!important;color:var(--ink-900)!important;border-color:transparent!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vf{background:var(--card)!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vf b{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vf .k{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) section.ch.dark .vs .vf .x{color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .expbox{max-width:var(--read)!important;margin:28px auto 0!important;background:var(--brass-50)!important;
+  border:1px solid rgba(179,135,62,.4)!important;border-radius:16px!important;padding:26px 30px 24px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h{max-width:none!important;margin-bottom:22px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ttl b{font-size:24px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ttl::before,:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ttl::after{max-width:46px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ld{font-size:16px!important;margin-top:12px!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ld strong{color:var(--brown-800)!important}
+:is(#urology-hsinchu-cms,#yh) .ex2{display:grid!important;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)!important;gap:24px!important;align-items:center!important}
+:is(#urology-hsinchu-cms,#yh) .exfig{margin:0!important;border:1px solid rgba(179,135,62,.4)!important;border-radius:12px!important;overflow:hidden!important;background:var(--card)!important}
+:is(#urology-hsinchu-cms,#yh) .exfig img{display:block!important;width:100%!important;height:auto!important}
+:is(#urology-hsinchu-cms,#yh) .exrows{background:var(--card)!important;border:1px solid rgba(179,135,62,.3)!important;border-radius:12px!important;padding:4px 20px 14px!important}
+:is(#urology-hsinchu-cms,#yh) .er{display:flex!important;align-items:baseline!important;justify-content:space-between!important;gap:14px!important;
+  padding:14px 0!important;border-bottom:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .er .k{color:var(--ink-500)!important;flex:none!important;font-weight:500!important}
+:is(#urology-hsinchu-cms,#yh) .er .v{display:inline-flex!important;align-items:center!important;gap:9px!important;font-weight:700!important;
+  color:var(--ink-900)!important;text-align:right!important}
+:is(#urology-hsinchu-cms,#yh) .er .v::before{content:""!important;width:8px!important;height:8px!important;background:var(--brass-500)!important;transform:rotate(45deg)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .exrows .ern{margin:12px 0 0!important;font-size:12.5px!important;line-height:1.7!important;color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) .exrows .er:last-of-type{border-bottom:none!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .en{margin:20px 0 0!important;padding-top:16px!important;border-top:1px solid rgba(179,135,62,.35)!important;
+  font-size:16px!important;line-height:1.85!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .en strong{color:var(--brown-800)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .expbox{padding:20px 18px 18px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h{margin-bottom:18px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ttl b{font-size:19px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ttl::before,:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ttl::after{max-width:20px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .m5h .ld{font-size:15px!important}
+:is(#urology-hsinchu-cms,#yh) .ex2{grid-template-columns:1fr!important;gap:16px!important}
+:is(#urology-hsinchu-cms,#yh) .exrows{padding:2px 16px 12px!important}
+:is(#urology-hsinchu-cms,#yh) .er{padding:12px 0!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .expbox .en{font-size:15px!important;margin-top:16px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .m5h{max-width:760px!important;margin:0 auto 26px!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .eb{font:600 12px/1 var(--font-mono)!important;letter-spacing:.14em!important;color:var(--brass-700)!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ttl{display:flex!important;align-items:center!important;gap:16px!important;justify-content:center!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ttl::before,:is(#urology-hsinchu-cms,#yh) .m5h .ttl::after{content:""!important;flex:1!important;max-width:80px!important;height:1px!important;background:var(--brass-500)!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ttl b{font-family:var(--font-serif)!important;font-size:31px!important;font-weight:700!important;line-height:1.3!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ld{margin:14px 0 0!important;font-size:17px!important;line-height:1.8!important;color:var(--ink-700)!important;font-weight:500!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ld strong{color:var(--brown-800)!important}
+:is(#urology-hsinchu-cms,#yh) .m5g{display:grid!important;grid-template-columns:1fr 1fr!important;gap:16px!important}
+:is(#urology-hsinchu-cms,#yh) .m5g.three>div:last-child{grid-column:1/-1!important}
+:is(#urology-hsinchu-cms,#yh) .m5n{margin:18px 0 0!important;font-size:13.5px!important;line-height:1.75!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .no{border-radius:50%!important;display:flex!important;align-items:center!important;justify-content:center!important;
+  font-family:var(--font-latin)!important;font-weight:700!important;color:var(--ink-900)!important;background:var(--brass-500)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .lb{font:600 11px/1 var(--font-mono)!important;letter-spacing:.14em!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .t{margin:0!important;font-family:var(--font-serif)!important;font-size:20px!important;font-weight:700!important;line-height:1.45!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .m5g p{margin:10px 0 0!important;font-size:16px!important;line-height:1.8!important;color:var(--ink-700)!important;font-weight:500!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .m5g p em{font-style:normal!important;font-weight:700!important;color:var(--brown-800)!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .m5g sup a{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .m5a{max-width:var(--read)!important;margin:28px auto 0!important}
+:is(#urology-hsinchu-cms,#yh) .m5a .m5g>div{background:var(--card)!important;border:1.5px solid var(--brass-500)!important;border-radius:14px!important;padding:22px 24px!important}
+:is(#urology-hsinchu-cms,#yh) .m5a .hd{display:flex!important;align-items:center!important;gap:10px!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .m5a .no{width:26px!important;height:26px!important;font-size:15px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d{max-width:var(--read)!important;margin:28px auto 0!important;background:var(--espresso-gradient)!important;
+  border-radius:16px!important;padding:34px 32px 30px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5h{max-width:680px!important;margin-bottom:28px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5h .eb{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5h .ttl b{color:#fff!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5h .ld{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5g{gap:18px 16px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5g>div{position:relative!important;background:var(--card)!important;border-radius:12px!important;padding:28px 24px 22px!important;margin-top:14px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .no{position:absolute!important;top:-14px!important;left:22px!important;width:30px!important;height:30px!important;font-size:16px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .lb{display:block!important;margin-bottom:8px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5n{color:var(--brass-300)!important;opacity:.9!important;margin-top:22px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5n a{color:var(--brass-300)!important}
+:is(#urology-hsinchu-cms,#yh) .m5v{max-width:var(--read)!important;margin:28px auto 0!important;background:var(--brass-50)!important;
+  border:1px solid rgba(179,135,62,.28)!important;border-radius:16px!important;padding:26px 30px 24px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v .m5h{margin-bottom:0!important}
+:is(#urology-hsinchu-cms,#yh) .m5v ol{list-style:none!important;margin:22px 0 0!important;padding:0!important}
+:is(#urology-hsinchu-cms,#yh) .m5v li{position:relative!important;display:grid!important;grid-template-columns:34px 1fr!important;gap:0 16px!important;padding:0 0 22px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v li:last-child{padding-bottom:0!important}
+:is(#urology-hsinchu-cms,#yh) .m5v li::before{content:""!important;position:absolute!important;left:16px!important;top:36px!important;bottom:0!important;width:2px!important;background:rgba(179,135,62,.4)!important}
+:is(#urology-hsinchu-cms,#yh) .m5v li:last-child::before{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .m5v .no{width:34px!important;height:34px!important;font-size:17px!important;background:var(--card)!important;
+  border:1.5px solid var(--brass-500)!important;color:var(--brass-700)!important;position:relative!important;z-index:1!important}
+:is(#urology-hsinchu-cms,#yh) .m5v .t{font-size:19px!important;margin:4px 0 5px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v p{margin:0!important;font-size:16px!important;line-height:1.8!important;color:var(--ink-700)!important;font-weight:500!important}
+:is(#urology-hsinchu-cms,#yh) .keybox + *,:is(#urology-hsinchu-cms,#yh) .expbox + *,:is(#urology-hsinchu-cms,#yh) .m5d + *,:is(#urology-hsinchu-cms,#yh) .icta + *{margin-top:46px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox + .m5,:is(#urology-hsinchu-cms,#yh) .expbox + .m5,:is(#urology-hsinchu-cms,#yh) .m5d + .m5,:is(#urology-hsinchu-cms,#yh) .icta + .m5{margin-top:72px!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .m5h{margin-bottom:20px!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ttl b{font-size:24px!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ttl::before,:is(#urology-hsinchu-cms,#yh) .m5h .ttl::after{max-width:28px!important}
+:is(#urology-hsinchu-cms,#yh) .m5h .ld{font-size:15.5px!important;margin-top:12px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox + *,:is(#urology-hsinchu-cms,#yh) .expbox + *,:is(#urology-hsinchu-cms,#yh) .m5d + *,:is(#urology-hsinchu-cms,#yh) .icta + *{margin-top:32px!important}
+:is(#urology-hsinchu-cms,#yh) .keybox + .m5,:is(#urology-hsinchu-cms,#yh) .expbox + .m5,:is(#urology-hsinchu-cms,#yh) .m5d + .m5,:is(#urology-hsinchu-cms,#yh) .icta + .m5{margin-top:48px!important}
+:is(#urology-hsinchu-cms,#yh) .m5g,:is(#urology-hsinchu-cms,#yh) .m5g.three{grid-template-columns:1fr!important;gap:14px!important}
+:is(#urology-hsinchu-cms,#yh) .m5g.three>div:last-child{grid-column:auto!important}
+:is(#urology-hsinchu-cms,#yh) .m5a .m5g>div{padding:18px 18px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d{padding:24px 18px 22px!important;border-radius:14px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5g{gap:26px 14px!important}
+:is(#urology-hsinchu-cms,#yh) .m5d .m5g>div{padding:24px 18px 18px!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .t{font-size:18px!important}
+:is(#urology-hsinchu-cms,#yh) .m5 .m5g p{font-size:15px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v{padding:20px 18px 18px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v li{grid-template-columns:30px 1fr!important;gap:0 13px!important;padding-bottom:18px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v .no{width:30px!important;height:30px!important;font-size:15px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v li::before{left:14px!important;top:32px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v .t{font-size:17px!important}
+:is(#urology-hsinchu-cms,#yh) .m5v p{font-size:15px!important}
+:is(#urology-hsinchu-cms,#yh) .m5n{font-size:12.5px!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .icta{padding:40px 0 38px!important;margin-top:34px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x .eb{font-size:11.5px!important;letter-spacing:.18em!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x .eb::before{width:18px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x b{font-size:23px!important;margin-bottom:9px!important}
+:is(#urology-hsinchu-cms,#yh) .icta .x span{font-size:16px!important;line-height:1.85!important}
+:is(#urology-hsinchu-cms,#yh) .icta .btns,:is(#urology-hsinchu-cms,#yh) .cta .btns{grid-template-columns:1fr!important;gap:10px!important;margin-top:22px!important;max-width:none!important}
+:is(#urology-hsinchu-cms,#yh) .icta .btn,:is(#urology-hsinchu-cms,#yh) .cta .btn{width:100%!important;padding:16px 20px!important;font-size:16px!important}
+:is(#urology-hsinchu-cms,#yh) .cta{padding:44px 0 40px!important}
+:is(#urology-hsinchu-cms,#yh) .cta .t{font-size:23px!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .cta p{font-size:15.5px!important;margin-bottom:20px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .ltree{display:grid!important;gap:0!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lroot,:is(#urology-hsinchu-cms,#yh) .ltree .lend,:is(#urology-hsinchu-cms,#yh) .ltree .lbr>div{border-radius:13px!important;padding:14px 18px!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lroot{background:var(--brass-50)!important;border:1.5px solid var(--brass-500)!important;max-width:420px!important;margin:0 auto!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lroot b{display:block!important;font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important;line-height:1.5!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lroot span{display:block!important;font-size:15px!important;color:var(--brass-700)!important;font-weight:600!important;margin-top:3px!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lbr{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:14px!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lbr>div{background:var(--card)!important;border:1.5px solid var(--sunken)!important;display:flex!important;flex-direction:column!important;justify-content:center!important;gap:4px!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lbr b{font-weight:700!important;color:var(--brown-700)!important;line-height:1.5!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lbr span{line-height:1.6!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lend{background:var(--brass-100)!important;border:1.5px solid var(--brass-500)!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lend b{display:block!important;font-size:17px!important;font-weight:700!important;color:var(--brass-700)!important;line-height:1.55!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lend span{display:block!important;font-size:14px!important;color:var(--ink-500)!important;margin-top:4px!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lar{justify-self:center!important;width:12px!important;height:24px!important;color:var(--ink-300)!important;position:relative!important;margin:12px 0!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lar::before{content:""!important;position:absolute!important;left:5px!important;top:0!important;width:1.5px!important;height:17px!important;background:currentColor!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lar::after{content:""!important;position:absolute!important;left:2px!important;top:13px!important;width:7px!important;height:7px!important;
+  border-top:1.5px solid currentColor!important;border-right:1.5px solid currentColor!important;transform:rotate(135deg)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .ltree .lbr{grid-template-columns:1fr!important;gap:10px!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lroot,:is(#urology-hsinchu-cms,#yh) .ltree .lend,:is(#urology-hsinchu-cms,#yh) .ltree .lbr>div{padding:12px 14px!important;text-align:left!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lroot{max-width:none!important}
+:is(#urology-hsinchu-cms,#yh) .ltree .lar{margin:8px 0!important;justify-self:start!important;margin-left:18px!important}
+
+}
+
+
+:is(#urology-hsinchu-cms,#yh) .svc{max-width:var(--read)!important;margin:18px auto 0!important;padding:24px 28px 22px!important;
+  border:1px solid var(--hairline)!important;border-left:3px solid var(--brass-500)!important;border-radius:0 14px 14px 0!important}
+:is(#urology-hsinchu-cms,#yh) .svc h3.q{margin-top:0!important}
+:is(#urology-hsinchu-cms,#yh) .svc div.lb{font:600 12.5px/1 var(--font-mono)!important;letter-spacing:.14em!important;
+  color:var(--brass-700)!important;margin:20px 0 8px!important}
+:is(#urology-hsinchu-cms,#yh) .svc ul{margin:0!important;padding-left:0!important;list-style:none!important;display:grid!important;gap:9px!important}
+:is(#urology-hsinchu-cms,#yh) .svc ul li{position:relative!important;padding-left:20px!important;font-size:17px!important;line-height:1.85!important;color:var(--ink-700)!important}
+:is(#urology-hsinchu-cms,#yh) .svc ul li::before{content:""!important;position:absolute!important;left:2px!important;top:11px!important;width:9px!important;height:9px!important;
+  background:var(--brass-500)!important;transform:rotate(45deg)!important}
+:is(#urology-hsinchu-cms,#yh) .svc .go{margin:18px 0 0!important;padding-top:14px!important;border-top:1px dashed rgba(28,23,18,.14)!important;
+  font-size:15px!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .svc .go a{color:var(--brown-700)!important;font-weight:600!important;text-decoration:none!important;
+  border-bottom:1px solid rgba(179,135,62,.5)!important}
+:is(#urology-hsinchu-cms,#yh) .svc .go a:hover{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .sched{max-width:var(--read)!important;margin:14px auto 0!important;border:1px solid rgba(179,135,62,.4)!important;
+  border-radius:14px!important;overflow:hidden!important;background:var(--card)!important;box-shadow:var(--shadow-card)!important}
+:is(#urology-hsinchu-cms,#yh) .sched table{width:100%!important;border-collapse:collapse!important}
+:is(#urology-hsinchu-cms,#yh) .sched th,:is(#urology-hsinchu-cms,#yh) .sched td{padding:12px 8px!important;text-align:center!important;
+  font-size:15px!important;border-top:1px solid rgba(28,23,18,.08)!important}
+:is(#urology-hsinchu-cms,#yh) .sched thead th{background:var(--brass-50)!important;color:var(--brown-700)!important;
+  font-family:var(--font-serif)!important;font-weight:700!important;border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched tbody th{background:#FAF8F4!important;text-align:left!important;padding-left:16px!important;
+  font-weight:600!important;color:var(--ink-900)!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .sched td em{font-style:normal!important;color:var(--brown-700)!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .sched td.off{color:var(--ink-300)!important}
+:is(#urology-hsinchu-cms,#yh) .team.t4{grid-template-columns:repeat(5,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .team.t4 .tm .b{padding:16px 16px 18px!important}
+:is(#urology-hsinchu-cms,#yh) .team.t4 .tm .sp b{display:block!important;color:var(--brass-700)!important;font-weight:600!important;margin-bottom:4px!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.t3{grid-template-columns:repeat(3,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.t3 .gc p{margin:8px 0 0!important;font-size:15px!important;line-height:1.8!important;color:var(--ink-500)!important}
+:is(#urology-hsinchu-cms,#yh) .m5g.s5{grid-template-columns:repeat(5,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .hl{background:var(--brass-100)!important;border-radius:8px!important;padding:12px 16px!important;
+  font-weight:600!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .loc>img{width:100%!important;height:auto!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b div>b{flex:none!important;min-width:42px!important;color:var(--ink-900)!important;font-weight:700!important}
+:is(#urology-hsinchu-cms,#yh) .cta .tel-row{margin:22px 0 0!important;font-size:15px!important;line-height:1.9!important;
+  color:rgba(255,255,255,.72)!important;font-family:var(--font-latin)!important}
+@media(max-width:1023px){:is(#urology-hsinchu-cms,#yh) .team.t4{grid-template-columns:repeat(3,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .m5g.s5{grid-template-columns:repeat(3,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .gcards.t3{grid-template-columns:1fr!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .svc{padding:20px 20px 18px!important;border-radius:0 12px 12px 0!important}
+:is(#urology-hsinchu-cms,#yh) .team.t4{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .m5g.s5{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .sched table,:is(#urology-hsinchu-cms,#yh) .sched tbody,:is(#urology-hsinchu-cms,#yh) .sched tr,:is(#urology-hsinchu-cms,#yh) .sched td,:is(#urology-hsinchu-cms,#yh) .sched tbody th{display:block!important;width:auto!important}
+:is(#urology-hsinchu-cms,#yh) .sched thead{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched tr{border-top:1px solid rgba(179,135,62,.3)!important}
+:is(#urology-hsinchu-cms,#yh) .sched tr:first-child{border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched tbody th{background:var(--brass-50)!important;color:var(--brown-700)!important;
+    font-family:var(--font-serif)!important;font-size:16px!important;padding:12px 16px!important;border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched td{display:flex!important;justify-content:space-between!important;align-items:center!important;
+    text-align:right!important;padding:10px 16px!important;border-top:1px dashed rgba(28,23,18,.12)!important}
+:is(#urology-hsinchu-cms,#yh) .sched td::before{content:"星期" attr(data-label)!important;
+    font-weight:600!important;color:var(--ink-500)!important;text-align:left!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .hero h1{white-space:normal!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1 .k{color:var(--brass-700)!important;white-space:nowrap!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f{align-items:flex-start!important}
+:is(#urology-hsinchu-cms,#yh) .trust .facts .f .vv{white-space:normal!important;overflow:visible!important;text-overflow:clip!important;line-height:1.75!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .hero h1{font-size:clamp(24px,6.6vw,30px)!important;line-height:1.32!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font-size:17px!important;margin-bottom:10px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font-size:14.5px!important;line-height:1.75!important;margin-bottom:16px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .svc{border:none!important;border-left:none!important;border-radius:0!important;padding:0!important;margin-top:38px!important}
+:is(#urology-hsinchu-cms,#yh) .svc+.svc{margin-top:44px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h{text-align:center!important;border-top:1px solid var(--brass-500)!important;
+  border-bottom:1px solid var(--brass-500)!important;padding:17px 14px!important;margin:0 0 20px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h .eb{font:600 12px/1 var(--font-mono)!important;letter-spacing:.2em!important;
+  color:var(--brass-700)!important;margin-bottom:9px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h h3{margin:0!important;font-family:var(--font-serif)!important;font-size:27px!important;font-weight:700!important;
+  color:var(--ink-900)!important;line-height:1.4!important}
+:is(#urology-hsinchu-cms,#yh) .svc>p,:is(#urology-hsinchu-cms,#yh) .svc>ul,:is(#urology-hsinchu-cms,#yh) .svc>.lb,:is(#urology-hsinchu-cms,#yh) .svc>.go{max-width:var(--read)!important;margin-inline:auto!important}
+:is(#urology-hsinchu-cms,#yh) .sched-all tbody tr.grp th{background:var(--brown-700)!important;color:#fff!important;
+  font-family:var(--font-serif)!important;font-size:17px!important;font-weight:700!important;text-align:center!important;
+  letter-spacing:.04em!important;padding:11px 8px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-all tbody th{width:104px!important}
+:is(#urology-hsinchu-cms,#yh) .cta .btns.b4{grid-template-columns:repeat(4,1fr)!important;max-width:100%!important}
+@media(max-width:1023px){:is(#urology-hsinchu-cms,#yh) .cta .btns.b4{grid-template-columns:1fr 1fr!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .sv-h{padding:14px 8px!important;margin-bottom:16px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h h3{font-size:21px!important}
+:is(#urology-hsinchu-cms,#yh) .svc{margin-top:30px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-all tbody tr.grp th{display:block!important;width:auto!important;font-size:16px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-all tbody th{width:auto!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .hero .eb{font-size:14px!important;letter-spacing:.2em!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1{font-size:58px!important;line-height:1.22!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font-size:32px!important;margin-bottom:20px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font-size:24px!important;line-height:1.7!important;margin-bottom:30px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{width:700px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn{font-size:21px!important}
+:is(#urology-hsinchu-cms,#yh) .toc .hd b{font-size:24px!important}
+:is(#urology-hsinchu-cms,#yh) .toc .hd span{font-size:14px!important}
+:is(#urology-hsinchu-cms,#yh) .toc ol li a{font-size:19px!important}
+:is(#urology-hsinchu-cms,#yh) .toc ol li .n{font-size:17px!important}
+:is(#urology-hsinchu-cms,#yh) .svc{margin-top:76px!important;padding-top:8px!important}
+:is(#urology-hsinchu-cms,#yh) .svc+.svc,:is(#urology-hsinchu-cms,#yh) .icta+.svc{margin-top:76px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h{padding:24px 16px!important;margin:0 0 26px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h .eb{font-size:13px!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h h3{font-size:34px!important;line-height:1.38!important}
+@media(max-width:1023px){:is(#urology-hsinchu-cms,#yh) .hero .inner{width:auto!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .hero h1{font-size:clamp(27px,7.4vw,34px)!important;line-height:1.3!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font-size:19.5px!important;margin-bottom:11px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font-size:16.5px!important;line-height:1.8!important;margin-bottom:18px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb{font-size:12px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn{font-size:16px!important}
+:is(#urology-hsinchu-cms,#yh) .toc .hd b{font-size:21px!important}
+:is(#urology-hsinchu-cms,#yh) .toc ol li a{font-size:17px!important}
+:is(#urology-hsinchu-cms,#yh) .svc,:is(#urology-hsinchu-cms,#yh) .svc+.svc,:is(#urology-hsinchu-cms,#yh) .icta+.svc{margin-top:54px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h{padding:18px 10px!important;margin-bottom:20px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h h3{font-size:25px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .svc h4.lb,:is(#urology-hsinchu-cms,#yh) .read h4.lb,:is(#urology-hsinchu-cms,#yh) h4.lb{
+  display:inline-flex!important;align-items:center!important;gap:10px!important;
+  font-family:var(--font-serif)!important;font-size:23px!important;font-weight:700!important;color:var(--ink-900)!important;
+  letter-spacing:0!important;margin:32px 0 14px!important;padding:0 24px 8px 0!important;
+  border-bottom:2px solid var(--brass-500)!important;line-height:1.4!important}
+:is(#urology-hsinchu-cms,#yh) .svc h4.lb::before,:is(#urology-hsinchu-cms,#yh) .read h4.lb::before,:is(#urology-hsinchu-cms,#yh) h4.lb::before{content:""!important;width:10px!important;height:10px!important;
+  background:var(--brass-500)!important;transform:rotate(45deg)!important;flex:none!important}
+:is(#urology-hsinchu-cms,#yh) h4.lb+*{margin-top:0!important}
+:is(#urology-hsinchu-cms,#yh) .svc h4.lb:first-of-type{margin-top:26px!important}
+:is(#urology-hsinchu-cms,#yh) .team.t4 .tm .ph{height:210px!important}
+:is(#urology-hsinchu-cms,#yh) .team.t4 .tm .ph img{object-position:50% 18%!important}
+@media(max-width:1023px){:is(#urology-hsinchu-cms,#yh) .team.t4 .tm .ph{height:240px!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .svc h4.lb,:is(#urology-hsinchu-cms,#yh) .read h4.lb,:is(#urology-hsinchu-cms,#yh) h4.lb{font-size:19.5px!important;margin:26px 0 12px!important}
+:is(#urology-hsinchu-cms,#yh) .team.t4 .tm .ph{height:280px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .sched-one{margin-top:22px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one+.sched-one{margin-top:26px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one .sc-h{background:var(--brown-700)!important;color:#fff!important;
+  font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;letter-spacing:.04em!important;
+  text-align:center!important;padding:13px 12px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one table{table-layout:fixed!important;width:100%!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th{width:132px!important;text-align:center!important;padding:12px 8px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th b{display:block!important;font-family:var(--font-serif)!important;
+  font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th .hm{display:block!important;margin-top:4px!important;
+  font:500 12.5px/1.3 var(--font-latin)!important;color:var(--ink-500)!important;letter-spacing:-.01em!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .sched-one .sc-h{font-size:15px!important;padding:11px 8px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one table{display:table!important;table-layout:fixed!important;width:100%!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one thead{display:table-header-group!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody{display:table-row-group!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tr{display:table-row!important;border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one th,:is(#urology-hsinchu-cms,#yh) .sched-one td{display:table-cell!important;width:auto!important;text-align:center!important;
+    padding:9px 0!important;font-size:11.5px!important;line-height:1.35!important;
+    border-top:1px solid rgba(28,23,18,.08)!important;white-space:normal!important;word-break:keep-all!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one td::before{content:none!important;display:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one thead th{font-size:12.5px!important;padding:9px 0!important;border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th{width:52px!important;padding:9px 2px!important;
+    background:var(--brass-50)!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th b{font-size:12.5px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th .hm{font-size:9px!important;margin-top:2px!important;letter-spacing:-.04em!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .sched-one{margin-top:22px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one+.sched-one{margin-top:26px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one .sc-h{background:var(--brown-700)!important;color:#fff!important;
+  font-family:var(--font-serif)!important;font-size:18px!important;font-weight:700!important;letter-spacing:.04em!important;
+  text-align:center!important;padding:13px 12px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one table{table-layout:fixed!important;width:100%!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th{width:132px!important;text-align:center!important;padding:12px 8px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th b{display:block!important;font-family:var(--font-serif)!important;
+  font-size:17px!important;font-weight:700!important;color:var(--ink-900)!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th .hm{display:block!important;margin-top:4px!important;
+  font:500 12.5px/1.3 var(--font-latin)!important;color:var(--ink-500)!important;letter-spacing:-.01em!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .sched-one .sc-h{font-size:15px!important;padding:11px 8px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one table{display:table!important;table-layout:fixed!important;width:100%!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one thead{display:table-header-group!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody{display:table-row-group!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tr{display:table-row!important;border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one th,:is(#urology-hsinchu-cms,#yh) .sched-one td{display:table-cell!important;width:auto!important;text-align:center!important;
+    padding:9px 0!important;font-size:11.5px!important;line-height:1.35!important;
+    border-top:1px solid rgba(28,23,18,.08)!important;white-space:normal!important;word-break:keep-all!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one td::before{content:none!important;display:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one thead th{font-size:12.5px!important;padding:9px 0!important;border-top:none!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th{width:52px!important;padding:9px 2px!important;
+    background:var(--brass-50)!important;text-align:center!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th b{font-size:12.5px!important}
+:is(#urology-hsinchu-cms,#yh) .sched-one tbody th .hm{font-size:9px!important;margin-top:2px!important;letter-spacing:-.04em!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .opener h2 .tB{
+  color:var(--brass-700)!important;
+  background-image:linear-gradient(transparent 58%, rgba(179,135,62,.28) 0)!important;
+  padding:0 3px!important;border-radius:2px!important}
+:is(#urology-hsinchu-cms,#yh) .ch.dark .opener h2 .tK{
+  color:var(--brass-400)!important;
+  background-image:linear-gradient(transparent 58%, rgba(201,155,78,.22) 0)!important;
+  padding:0 3px!important;border-radius:2px!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h h2{margin:0!important;font-family:var(--font-serif)!important;font-size:34px!important;
+  font-weight:700!important;color:var(--ink-900)!important;line-height:1.38!important}
+:is(#urology-hsinchu-cms,#yh) .sv-h h2 em{font-style:normal!important;color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b a.gmap{display:inline-flex!important;align-items:center!important;gap:6px!important;
+  color:var(--brown-700)!important;font-weight:600!important;text-decoration:none!important;
+  border-bottom:1px solid rgba(179,135,62,.5)!important;padding-bottom:2px!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b a.gmap:hover{color:var(--brass-700)!important}
+:is(#urology-hsinchu-cms,#yh) .loc .b .gaddr{display:block!important;font-style:normal!important;margin-top:6px!important;
+  font-size:13.5px!important;line-height:1.6!important;color:var(--ink-300,#9A9086)!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .sv-h h2{font-size:25px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{width:600px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb{font-size:16px!important;letter-spacing:.2em!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1{font-size:48px!important;line-height:1.24!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font-size:29px!important;margin-bottom:18px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font-size:24px!important;line-height:1.7!important;margin-bottom:28px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn{font-size:24px!important;min-height:78px!important;
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0 30px!important}
+@media(max-width:1023px){:is(#urology-hsinchu-cms,#yh) .hero .inner{width:auto!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .hero .inner{width:auto!important;padding-left:20px!important;padding-right:20px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .eb{font-size:13.5px!important}
+:is(#urology-hsinchu-cms,#yh) .hero h1{font-size:32px!important;line-height:1.3!important}
+:is(#urology-hsinchu-cms,#yh) .hero .sub{font-size:21px!important;margin-bottom:12px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .lead{font-size:18px!important;line-height:1.75!important;margin-bottom:20px!important}
+:is(#urology-hsinchu-cms,#yh) .hero .btn{font-size:19px!important;min-height:60px!important;padding:0 18px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .trust .photo{
+  max-width:none!important;margin:0 -30px!important;
+  border-radius:0!important;box-shadow:none!important;background:none!important}
+:is(#urology-hsinchu-cms,#yh) .trust .photo img{width:100%!important;height:auto!important;display:block!important}
+:is(#urology-hsinchu-cms,#yh) .trust .top{gap:26px!important}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .trust .photo{margin:0 -18px!important}
+
+}
+:is(#urology-hsinchu-cms,#yh) .team.t4{grid-template-columns:repeat(4,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{width:680px!important}
+@media(max-width:1023px){:is(#urology-hsinchu-cms,#yh) .team.t4{grid-template-columns:repeat(2,1fr)!important}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{width:auto!important}
+
+}
+@media(max-width:767px){:is(#urology-hsinchu-cms,#yh) .team.t4{grid-template-columns:1fr!important}
+:is(#urology-hsinchu-cms,#yh) .hero .inner{width:auto!important;padding-left:20px!important;padding-right:20px!important}
+
+}
+
+
+:is(#urology-hsinchu-cms,#yh) summary{background:transparent!important;box-shadow:none!important;text-transform:none!important}
+:is(#urology-hsinchu-cms,#yh) summary::marker{content:''!important}
+:is(#urology-hsinchu-cms,#yh) summary::-webkit-details-marker{display:none!important}
+:is(#urology-hsinchu-cms,#yh) .faq summary::before,:is(#urology-hsinchu-cms,#yh) .faq summary::after,:is(#urology-hsinchu-cms,#yh) .refs summary::after{content:none!important;display:none!important}
+:is(#urology-hsinchu-cms,#yh) .toc ol,:is(#urology-hsinchu-cms,#yh) .toc li{list-style:none!important}
+:is(#urology-hsinchu-cms,#yh) .toc li::marker{content:''!important}
+:is(#urology-hsinchu-cms,#yh) .toc a,:is(#urology-hsinchu-cms,#yh) .btn{text-decoration:none!important}
+:is(#urology-hsinchu-cms,#yh) details:not([open])>:not(summary){display:none!important}
