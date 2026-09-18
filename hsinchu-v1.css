@@ -1261,3 +1261,31 @@
 :is(#urology-hsinchu-cms,#yh) .toc li::marker{content:''!important}
 :is(#urology-hsinchu-cms,#yh) .toc a,:is(#urology-hsinchu-cms,#yh) .btn{text-decoration:none!important}
 :is(#urology-hsinchu-cms,#yh) details:not([open])>:not(summary){display:none!important}
+
+/* Article-only CMS compatibility: suppress native list dots, retain diamond ::before. */
+:is(#urology-hsinchu-cms,#yh) .svc ul,
+:is(#urology-hsinchu-cms,#yh) .svc ul > li{
+  list-style:none!important;list-style-image:none!important;
+}
+:is(#urology-hsinchu-cms,#yh) .svc ul > li::marker{content:''!important;font-size:0!important}
+/* Questions are direct summary text in this article, not always inside .q. */
+:is(#urology-hsinchu-cms,#yh) .faq details > summary,
+:is(#urology-hsinchu-cms,#yh) .faq details > summary:hover,
+:is(#urology-hsinchu-cms,#yh) .faq details > summary:focus,
+:is(#urology-hsinchu-cms,#yh) .faq details > summary:active{
+  color:#1C1712!important;-webkit-text-fill-color:#1C1712!important;
+  font-family:var(--font-sans,'Noto Sans TC',sans-serif)!important;
+  font-size:17px!important;font-weight:600!important;line-height:1.6!important;
+  background:transparent!important;list-style:none!important;
+}
+:is(#urology-hsinchu-cms,#yh) .faq details > summary span,
+:is(#urology-hsinchu-cms,#yh) .faq details > summary b,
+:is(#urology-hsinchu-cms,#yh) .faq details > summary strong{
+  color:inherit!important;-webkit-text-fill-color:inherit!important;
+}
+:is(#urology-hsinchu-cms,#yh) .faq details > summary svg{
+  color:#B3873E!important;flex-shrink:0!important;
+}
+:is(#urology-hsinchu-cms,#yh) .faq .a{
+  color:#3A3028!important;-webkit-text-fill-color:#3A3028!important;
+}
